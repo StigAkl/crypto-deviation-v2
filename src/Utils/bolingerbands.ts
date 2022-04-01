@@ -1,5 +1,5 @@
 import { BolingerBands, Currency, Timeframe } from "../types";
-const marketsService = require("./../market/marketService");
+import {GetCandles } from './../market/marketService';
 import { movingAverage, UpperbollingerBand, 
   LowerbollingerBand, crossedBollingerBand, std as standardDeviation } from "./utilities";
 
@@ -8,7 +8,7 @@ export const CalculateBolingerBands = async (
   timeframe: Timeframe,
   stdDev: number = 3
 ) => {
-  const candles = await marketsService.GetCandles(currency.marketName, timeframe);
+  const candles = await GetCandles(currency.marketName, timeframe);
 
   const typical_price = candles.map((el) => el.typicalPrice);
   const currentPrice = candles[candles.length - 1].close;

@@ -1,15 +1,15 @@
 [
   {
     "name": "1INCH",
-    "lastTriggered15": "2022-04-01T23:19:03.823Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
+    "lastTriggered15": "2000-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2022-04-01T23:50:09.476Z",
+    "lastTriggeredH": "2022-04-01T23:50:52.976Z",
     "marketName": "1INCH-PERP"
   },
   {
     "name": "AAVE",
-    "lastTriggered15": "2022-04-01T23:19:04.218Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered15": "2000-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2022-04-01T23:50:10.170Z",
     "lastTriggeredH": "2000-01-31T23:00:00.000Z",
     "marketName": "AAVE-PERP"
   },
@@ -22,16 +22,16 @@
   },
   {
     "name": "AGLD",
-    "lastTriggered15": "2022-04-01T23:19:04.982Z",
+    "lastTriggered15": "2000-01-31T23:00:00.000Z",
     "lastTriggered4H": "2000-01-31T23:00:00.000Z",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2022-04-01T23:50:55.077Z",
     "marketName": "AGLD-PERP"
   },
   {
     "name": "ALCX",
     "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2022-04-01T23:50:12.316Z",
+    "lastTriggeredH": "2022-04-01T23:50:55.803Z",
     "marketName": "ALCX-PERP"
   },
   {
@@ -44,20 +44,20 @@
   {
     "name": "ALICE",
     "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2022-04-01T23:50:13.654Z",
+    "lastTriggeredH": "2022-04-01T23:51:01.374Z",
     "marketName": "ALICE-PERP"
   },
   {
     "name": "ALPHA",
-    "lastTriggered15": "2022-04-01T23:19:06.491Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered15": "2000-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2022-04-01T23:50:14.343Z",
     "lastTriggeredH": "2000-01-31T23:00:00.000Z",
     "marketName": "ALPHA-PERP"
   },
   {
     "name": "ALT",
-    "lastTriggered15": "2022-04-01T23:19:12.441Z",
+    "lastTriggered15": "2000-01-31T23:00:00.000Z",
     "lastTriggered4H": "2000-01-31T23:00:00.000Z",
     "lastTriggeredH": "2000-01-31T23:00:00.000Z",
     "marketName": "ALT-PERP"
@@ -65,21 +65,21 @@
   {
     "name": "ANC",
     "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2022-04-01T23:50:15.835Z",
     "lastTriggeredH": "2000-01-31T23:00:00.000Z",
     "marketName": "ANC-PERP"
   },
   {
     "name": "APE",
     "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2022-04-01T23:50:16.469Z",
     "lastTriggeredH": "2000-01-31T23:00:00.000Z",
     "marketName": "APE-PERP"
   },
   {
     "name": "AR",
     "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2022-04-01T23:50:17.186Z",
     "lastTriggeredH": "2000-01-31T23:00:00.000Z",
     "marketName": "AR-PERP"
   },
@@ -114,7 +114,7 @@
   {
     "name": "AXS",
     "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2022-04-01T23:50:26.263Z",
     "lastTriggeredH": "2000-01-31T23:00:00.000Z",
     "marketName": "AXS-PERP"
   },
@@ -252,9 +252,11 @@
     "marketName": "CRV-PERP"
   },
   {
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z"
+    "name": "CTX",
+    "lastTriggered15": "2000-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
+    "marketName": "CTX/USD"
   },
   {
     "name": "CVC",
@@ -362,16 +364,6 @@
     "marketName": "ETH-PERP"
   },
   {
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z"
-  },
-  {
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z"
-  },
-  {
     "name": "EXCH",
     "lastTriggered15": "2000-01-31T23:00:00.000Z",
     "lastTriggered4H": "2000-01-31T23:00:00.000Z",
@@ -428,9 +420,11 @@
     "marketName": "GALA-PERP"
   },
   {
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z"
+    "name": "GENE",
+    "lastTriggered15": "2000-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
+    "marketName": "GENE/USD"
   },
   {
     "name": "GMT",
@@ -853,9 +847,11 @@
     "marketName": "STEP-PERP"
   },
   {
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z"
+    "name": "STG",
+    "lastTriggered15": "2000-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
+    "marketName": "STG/USD"
   },
   {
     "name": "STMX",
@@ -942,16 +938,11 @@
     "marketName": "UNI-PERP"
   },
   {
-    "name": "USDT",
+    "name": "UST",
     "lastTriggered15": "2000-01-31T23:00:00.000Z",
     "lastTriggered4H": "2000-01-31T23:00:00.000Z",
     "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "marketName": "USDT-PERP"
-  },
-  {
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z"
+    "marketName": "UST/USD"
   },
   {
     "name": "VET",
@@ -968,9 +959,11 @@
     "marketName": "WAVES-PERP"
   },
   {
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z"
+    "name": "WBTC",
+    "lastTriggered15": "2000-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
+    "marketName": "WBTC/USD"
   },
   {
     "name": "XEM",
@@ -1036,18 +1029,24 @@
     "marketName": "ZRX-PERP"
   },
   {
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z"
+    "name": "BEAR",
+    "lastTriggered15": "2000-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
+    "marketName": "BEAR/USD"
   },
   {
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z"
+    "name": "BULL",
+    "lastTriggered15": "2000-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
+    "marketName": "BULL/USD"
   },
   {
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z"
+    "name": "ETHBULL",
+    "lastTriggered15": "2000-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
+    "marketName": "ETHBULL/USD"
   }
 ]

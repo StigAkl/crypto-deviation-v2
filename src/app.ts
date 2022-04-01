@@ -1,8 +1,9 @@
 require("dotenv").config();
 import { shouldPerformAnalysis, delay } from './Utils/utilities';
-import { GetMarkets, SetSuppression } from './database/currency_database';
+import { GetMarkets, LoadCurrenciesToJson, SetSuppression } from './database/currency_database';
 import { Timeframe } from './types';
 import { CalculateBolingerBands } from './Utils/bolingerbands';
+import { GetMarkets as GetMarketsService } from './market/marketService';
 
 
 const performAnalysis = async (timeFrame: Timeframe, stdDev: number = 3) => {
@@ -46,14 +47,14 @@ const performAnalysis = async (timeFrame: Timeframe, stdDev: number = 3) => {
     }
 
     if (alertTriggered) {
-      SetSuppression(currency, Timeframe.EveryFifteenMinute);
+      SetSuppression(currency, timeFrame);
     }
     await delay(300);
   }
 };
 
 const app = async () => {
-  await performAnalysis(Timeframe.EveryFifteenMinute, 1);
+  await performAnalysis(Timeframe.Hourly, 1);
   //const markets = await GetMarketsService(); 
   //LoadCurrenciesToJson(markets, true);
 };
