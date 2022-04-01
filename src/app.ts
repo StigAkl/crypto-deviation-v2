@@ -26,11 +26,6 @@ const performAnalysis = async (timeFrame: Timeframe, stdDev: number = 3) => {
       currentCrossingBollingerLevel,
     } = await CalculateBolingerBands(currency, timeFrame, stdDev);
 
-    console.log("Currency:", currency.name)
-    console.log("upper:", upperBollingerBand)
-    console.log("lower:", lowerBollingerBand)
-    console.log("Price:", currentPrice);
-
     let alertTriggered = false;
     if (currentPrice >= upperBollingerBand) {
       alertTriggered = true;
