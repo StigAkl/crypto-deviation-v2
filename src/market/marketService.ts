@@ -31,8 +31,11 @@ export const GetMarkets = async (): Promise<Currency[]> => {
       const split = element.name.split("-");
       if (!addedCurrencies.includes(split[0])) {
         markets.push({
-          name: element.name,
-          lastTriggered: defaultDate,
+          name: split[0],
+          lastTriggered15: defaultDate,
+          lastTriggered4H: defaultDate,
+          lastTriggeredH: defaultDate,
+          marketName: element.name
         });
         addedCurrencies.push(split[0]);
       }

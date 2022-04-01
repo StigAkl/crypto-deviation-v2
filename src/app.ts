@@ -1,12 +1,12 @@
-import { Currency } from "./types";
 require("dotenv").config();
-const Utils = require("./Utils/utilities");
-const Database = require("./database/currency_database");
-const BolingerBands = require("./Utils/bolingerbands");
-const TimeFrames = require("./constants/timeframes");
+import { shouldPerformAnalysis, delay } from './Utils/utilities';
+import { GetMarkets, SetSuppression } from './database/currency_database';
+import { Timeframe } from './types';
+import { CalculateBolingerBands } from './Utils/bolingerbands';
 
-const performAnalysis = async (timeFrame: number, stdDev: number = 3) => {
-  const markets = Database.GetMarkets();
+
+const performAnalysis = async (timeFrame: Timeframe, stdDev: number = 3) => {
+  const markets = GetMarkets();
 
   console.log(
     `Performing analysis with std dev ${stdDev} and timeframe ${timeFrame}`
@@ -15,7 +15,7 @@ const performAnalysis = async (timeFrame: number, stdDev: number = 3) => {
   for (let i = 0; i < markets.length; i++) {
     const currency = markets[i];
 
-    if (!Utils.shouldPerformAnalysis(currency)) {
+    if (!shouldPerformAnalysis(currency, timeFrame)) {
       continue;
     }
 
@@ -24,14 +24,12 @@ const performAnalysis = async (timeFrame: number, stdDev: number = 3) => {
       lowerBollingerBand,
       currentPrice,
       currentCrossingBollingerLevel,
-    } = await BolingerBands.CalculateBolingerBands(currency, timeFrame, stdDev);
+    } = await CalculateBolingerBands(currency, timeFrame, stdDev);
 
-    console.log("\n\n-----------------");
-    console.log("Valuta: ", currency.name);
-    console.log("Lower bolinger band:", upperBollingerBand);
-    console.log("Upper bolinger band:", lowerBollingerBand);
+    console.log("Currency:", currency.name)
+    console.log("upper:", upperBollingerBand)
+    console.log("lower:", lowerBollingerBand)
     console.log("Price:", currentPrice);
-    console.log("-----------------\n\n");
 
     let alertTriggered = false;
     if (currentPrice >= upperBollingerBand) {
@@ -53,22 +51,16 @@ const performAnalysis = async (timeFrame: number, stdDev: number = 3) => {
     }
 
     if (alertTriggered) {
-      Database.SetSuppression(currency);
+      SetSuppression(currency, Timeframe.EveryFifteenMinute);
     }
-
-    await Utils.delay(300);
+    await delay(300);
   }
 };
 
 const app = async () => {
-  //TODO: Nightly / daily dump of crypto quote volume data from markets service to local database
-  //const markets = await marketsService.GetMarkets();
-  //await Database.LoadCurrenciesToJson(markets, true);
-  //const candles = await marketsService.GetCandles("btc/usdt", 900);
-
-  const markets = Database.GetMarkets();
-
-  await performAnalysis(TimeFrames.fifteen, 1.5);
+  await performAnalysis(Timeframe.EveryFifteenMinute, 1);
+  //const markets = await GetMarketsService(); 
+  //LoadCurrenciesToJson(markets, true);
 };
 
 app();

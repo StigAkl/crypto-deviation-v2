@@ -1,29 +1,26 @@
-import { BolingerBands, Currency } from "../types";
-const Utils = require("./utilities");
+import { BolingerBands, Currency, Timeframe } from "../types";
 const marketsService = require("./../market/marketService");
+import { movingAverage, UpperbollingerBand, 
+  LowerbollingerBand, crossedBollingerBand, std as standardDeviation } from "./utilities";
 
-const CalculateBolingerBands = async (
+export const CalculateBolingerBands = async (
   currency: Currency,
-  resolution: number,
+  timeframe: Timeframe,
   stdDev: number = 3
 ) => {
-  const candles = await marketsService.GetCandles(currency.name, resolution);
+  const candles = await marketsService.GetCandles(currency.marketName, timeframe);
 
   const typical_price = candles.map((el) => el.typicalPrice);
   const currentPrice = candles[candles.length - 1].close;
 
-  console.log("std:", stdDev);
-  console.log("resolution:", resolution);
-  console.log("Currency:", currency.name);
-
   //Calculate simple moving average, standard deviation and upper/lower bollinger bands
-  const sma = Utils.movingAverage(typical_price);
-  const std = Utils.std(typical_price);
-  const upper3BollingerBand = Utils.UpperbollingerBand(sma, stdDev, std);
-  const lower3BollingerBand = Utils.LowerbollingerBand(sma, stdDev, std);
+  const sma = movingAverage(typical_price);
+  const std = standardDeviation(typical_price);
+  const upper3BollingerBand = UpperbollingerBand(sma, stdDev, std);
+  const lower3BollingerBand = LowerbollingerBand(sma, stdDev, std);
 
   //Calculate current bollinger band level
-  const currentCrossingBollingerLevel = Utils.crossedBollingerBand(
+  const currentCrossingBollingerLevel = crossedBollingerBand(
     currentPrice,
     std,
     sma
@@ -37,8 +34,4 @@ const CalculateBolingerBands = async (
   };
 
   return BolingerBand;
-};
-
-module.exports = {
-  CalculateBolingerBands,
 };

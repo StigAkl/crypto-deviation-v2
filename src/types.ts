@@ -1,6 +1,9 @@
 export interface Currency {
+  marketName: string;
   name: string;
-  lastTriggered: Date;
+  lastTriggered15: Date;
+  lastTriggeredH: Date;
+  lastTriggered4H: Date;
 }
 
 export interface Candle {
@@ -16,4 +19,10 @@ export interface BolingerBands {
   lowerBollingerBand: number;
   currentPrice: number;
   currentCrossingBollingerLevel: number;
+}
+
+export enum Timeframe {
+  EveryFifteenMinute = 900,
+  Hourly = 3600,
+  EveryFourthHour = 14400
 }

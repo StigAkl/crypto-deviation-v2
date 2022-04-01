@@ -1,12 +1,12 @@
-import { Currency } from "../types";
+import { Currency, Timeframe } from "../types";
 
 const suppressionTime = process.env.SUPPRESSION_TIME;
 
-const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+export const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
-const movingAverage = (data) => data.reduce((a, b) => a + b, 0) / data.length;
+export const movingAverage = (data: any) => data.reduce((a, b) => a + b, 0) / data.length;
 
-const std = (data) => {
+export const std = (data: any) => {
   const sma = movingAverage(data);
   let sum = 0;
   data.forEach((element) => {
@@ -16,30 +16,25 @@ const std = (data) => {
   return population_standard_deviation;
 };
 
-const UpperbollingerBand = (ma, m, std) => {
+export const UpperbollingerBand = (ma, m, std) => {
   return ma + m * std;
 };
 
-const LowerbollingerBand = (ma, m, std) => {
+export const LowerbollingerBand = (ma, m, std) => {
   return ma - m * std;
 };
 
-const crossedBollingerBand = (currentPrice, std, ma) => {
+export const crossedBollingerBand = (currentPrice, std, ma) => {
   return (currentPrice - ma) / std;
 };
 
-const shouldPerformAnalysis = (currency: Currency) => {
-  return (
-    currency.lastTriggered.getTime() + parseInt(suppressionTime) < Date.now()
-  );
-};
-
-module.exports = {
-  delay,
-  movingAverage,
-  std,
-  crossedBollingerBand,
-  LowerbollingerBand,
-  UpperbollingerBand,
-  shouldPerformAnalysis,
+export const shouldPerformAnalysis = (currency: Currency, timeframe: Timeframe) => {
+  switch(timeframe) {
+    case Timeframe.EveryFifteenMinute:
+      return currency.lastTriggered15.getTime() + parseInt(suppressionTime) < Date.now();
+    case Timeframe.Hourly:
+      return currency.lastTriggeredH.getTime() + parseInt(suppressionTime) < Date.now();
+    case Timeframe.EveryFourthHour:
+      return currency.lastTriggered4H.getTime() + parseInt(suppressionTime) < Date.now();
+  }
 };
