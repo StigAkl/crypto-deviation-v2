@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.shouldPerformAnalysis = exports.crossedBollingerBand = exports.LowerbollingerBand = exports.UpperbollingerBand = exports.std = exports.movingAverage = exports.delay = void 0;
+exports.shouldPerformAnalysis = exports.SendAlert = exports.getChannel = exports.crossedBollingerBand = exports.LowerbollingerBand = exports.UpperbollingerBand = exports.std = exports.movingAverage = exports.delay = void 0;
 const types_1 = require("../types");
 const suppressionTime = process.env.SUPPRESSION_TIME;
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -29,6 +29,49 @@ const crossedBollingerBand = (currentPrice, std, ma) => {
     return (currentPrice - ma) / std;
 };
 exports.crossedBollingerBand = crossedBollingerBand;
+const getChannel = (timeframe, client) => {
+    switch (timeframe) {
+        case types_1.Timeframe.EveryFifteenMinute:
+            return client.channels.cache.find(channel => channel.name.includes("15m"));
+        case types_1.Timeframe.Hourly:
+            return client.channels.cache.find(channel => channel.name.includes("1h"));
+        case types_1.Timeframe.EveryFourthHour:
+            return client.channels.cache.find(channel => channel.name.includes("4h"));
+    }
+};
+exports.getChannel = getChannel;
+const SendAlert = (currency, channel, long, price, bbScore) => {
+    const title = long ?
+        `Possible long setting up for ${currency.name}` :
+        `Possible short setting up for ${currency.name}`;
+    const tradingView = "https://www.tradingview.com/chart/VRu66swZ/?symbol=:symbol:".replace(":symbol:", currency.name.concat("USDT"));
+    const color = long ? 3066993 : 10038562;
+    channel.send({
+        content: tradingView,
+        embeds: [
+            {
+                title,
+                color,
+                fields: [{
+                        name: "Price",
+                        value: price.toString(),
+                        inline: true
+                    },
+                    {
+                        name: "Bolinger band score",
+                        value: bbScore.toString(),
+                        inline: true
+                    },
+                    {
+                        name: "Trading view",
+                        value: tradingView,
+                        inline: false
+                    }]
+            }
+        ]
+    });
+};
+exports.SendAlert = SendAlert;
 const shouldPerformAnalysis = (currency, timeframe) => {
     switch (timeframe) {
         case types_1.Timeframe.EveryFifteenMinute:

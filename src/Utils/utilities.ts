@@ -28,6 +28,50 @@ export const crossedBollingerBand = (currentPrice, std, ma) => {
   return (currentPrice - ma) / std;
 };
 
+export const getChannel = (timeframe: Timeframe, client: any) => {
+  switch (timeframe) {
+    case Timeframe.EveryFifteenMinute:
+      return client.channels.cache.find(channel=>channel.name.includes("15m")); 
+    case Timeframe.Hourly:
+      return client.channels.cache.find(channel=>channel.name.includes("1h")); 
+    case Timeframe.EveryFourthHour:
+      return client.channels.cache.find(channel=>channel.name.includes("4h"));
+  }
+}
+
+export const SendAlert = (currency: Currency, channel: any, long: boolean, price: number, bbScore: number) => {
+  const title = long ? 
+  `Possible long setting up for ${currency.name}` : 
+  `Possible short setting up for ${currency.name}`;
+  const tradingView = "https://www.tradingview.com/chart/VRu66swZ/?symbol=:symbol:".replace(":symbol:", currency.name.concat("USDT"));
+  const color = long ? 3066993 : 10038562
+  
+  channel.send({
+    content: tradingView,
+    embeds: [
+      {
+        title,
+          color,
+          fields: [{
+            name: "Price", 
+            value: price.toString(),
+            inline: true
+          }, 
+          {
+          name: "Bolinger band score",
+          value: bbScore.toString(),
+          inline: true
+          },
+          {
+            name: "Trading view",
+            value: tradingView,
+            inline: false
+            }]
+      }
+    ]
+  });
+}
+
 export const shouldPerformAnalysis = (currency: Currency, timeframe: Timeframe) => {
   switch(timeframe) {
     case Timeframe.EveryFifteenMinute:

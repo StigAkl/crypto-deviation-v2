@@ -1,12 +1,13 @@
 require("dotenv").config();
-import { shouldPerformAnalysis, delay } from './Utils/utilities';
-import { GetMarkets, LoadCurrenciesToJson, SetSuppression } from './database/currency_database';
+import { shouldPerformAnalysis, delay, getChannel, SendAlert } from './Utils/utilities';
+import { GetMarkets, SetSuppression } from './database/currency_database';
 import { Timeframe } from './types';
 import { CalculateBolingerBands } from './Utils/bolingerbands';
-import { GetMarkets as GetMarketsService } from './market/marketService';
-
+const { Client, Intents } = require('discord.js');
+const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 
 const performAnalysis = async (timeFrame: Timeframe, stdDev: number = 3) => {
+  const discordChannel = getChannel(timeFrame, client); 
   const markets = GetMarkets();
 
   console.log(
@@ -30,38 +31,38 @@ const performAnalysis = async (timeFrame: Timeframe, stdDev: number = 3) => {
     let alertTriggered = false;
     if (currentPrice >= upperBollingerBand) {
       alertTriggered = true;
-      console.log(
-        `Upper bollinger band hit for ${currency.name}. Price: ${currentPrice}, BB: ${currentCrossingBollingerLevel}`
-      );
+      SendAlert(currency, discordChannel, false, currentPrice, currentCrossingBollingerLevel); 
     }
 
     if (currentPrice <= lowerBollingerBand) {
+      console.log(lowerBollingerBand, currentPrice);
       alertTriggered = true;
-      console.log(
-        `Lower bollinger band hit for ${
-          currency.name
-        }. Price: ${currentPrice}, BB: ${Math.abs(
-          currentCrossingBollingerLevel
-        )}`
-      );
+      SendAlert(currency, discordChannel, true, currentPrice, currentCrossingBollingerLevel); 
     }
 
     if (alertTriggered) {
       SetSuppression(currency, timeFrame);
     }
-    await delay(40);
+    await delay(100);
   }
 };
 
-const app = async () => {
-  await performAnalysis(Timeframe.EveryFifteenMinute, 1);
+client.on('ready', async () => {
+  console.log(`Logged in as ${client.user.tag}!`);
 
-  setInterval(async () => {
-    await performAnalysis(Timeframe.EveryFifteenMinute, 1); 
-  }, 1*60*1000);
-  
-  //const markets = await GetMarketsService(); 
-  //LoadCurrenciesToJson(markets, true);
-};
+  try {
+    await performAnalysis(Timeframe.EveryFifteenMinute, 3);
+    await performAnalysis(Timeframe.Hourly, 3);
+    await performAnalysis(Timeframe.EveryFourthHour, 3); 
 
-app();
+    setInterval(async ()=> {
+      await performAnalysis(Timeframe.EveryFifteenMinute, 3);
+      await performAnalysis(Timeframe.Hourly, 3);
+      await performAnalysis(Timeframe.EveryFourthHour, 3); 
+    }, 5*60*1000);
+  } catch(error) {
+    console.log(error); 
+  }
+});
+
+client.login(process.env.DISCORD_BOT_TOKEN);
