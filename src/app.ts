@@ -7,7 +7,7 @@ const { Client, Intents } = require('discord.js');
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 
 const performAnalysis = async (timeFrame: Timeframe, stdDev: number = 3) => {
-  const discordChannel = getChannel(timeFrame, client); 
+  const discordChannel = getChannel(timeFrame, client);
   const markets = GetMarkets();
 
   console.log(
@@ -41,7 +41,7 @@ const performAnalysis = async (timeFrame: Timeframe, stdDev: number = 3) => {
     }
 
     if (alertTriggered) {
-      //SetSuppression(currency, timeFrame);
+      SetSuppression(currency, timeFrame);
     }
     await delay(100);
   }
@@ -51,7 +51,7 @@ client.on('ready', async () => {
   console.log(`Logged in as ${client.user.tag}!`);
 
   try {
-    await performAnalysis(Timeframe.EveryFifteenMinute, 0.5);
+    await performAnalysis(Timeframe.EveryFifteenMinute, 3);
     await performAnalysis(Timeframe.Hourly, 3);
     await performAnalysis(Timeframe.EveryFourthHour, 3); 
 
