@@ -49,12 +49,17 @@ const performAnalysis = async (timeFrame: Timeframe, stdDev: number = 3) => {
     if (alertTriggered) {
       SetSuppression(currency, timeFrame);
     }
-    await delay(300);
+    await delay(40);
   }
 };
 
 const app = async () => {
-  await performAnalysis(Timeframe.Hourly, 1);
+  await performAnalysis(Timeframe.EveryFifteenMinute, 1);
+
+  setInterval(async () => {
+    await performAnalysis(Timeframe.EveryFifteenMinute, 1); 
+  }, 1*60*1000);
+  
   //const markets = await GetMarketsService(); 
   //LoadCurrenciesToJson(markets, true);
 };
