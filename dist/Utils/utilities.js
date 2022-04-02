@@ -1,7 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.shouldPerformAnalysis = exports.SendAlert = exports.getChannel = exports.crossedBollingerBand = exports.LowerbollingerBand = exports.UpperbollingerBand = exports.std = exports.movingAverage = exports.delay = void 0;
+exports.shouldPerformAnalysis = exports.storeValidCurrencies = exports.SendAlert = exports.getChannel = exports.crossedBollingerBand = exports.LowerbollingerBand = exports.UpperbollingerBand = exports.std = exports.movingAverage = exports.delay = void 0;
+const currency_database_1 = require("../database/currency_database");
 const types_1 = require("../types");
+const fs = require("fs");
 const suppressionTime = process.env.SUPPRESSION_TIME;
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 exports.delay = delay;
@@ -71,6 +73,20 @@ const SendAlert = (currency, channel, long, price, bbScore) => {
     });
 };
 exports.SendAlert = SendAlert;
+const storeValidCurrencies = () => {
+    const markets = (0, currency_database_1.GetMarkets)();
+    const marketNames = markets.map(market => {
+        return {
+            "name": market.name,
+            "marketName": market.marketName
+        };
+    });
+    fs.writeFile("currencies.json", JSON.stringify(marketNames, undefined, 2), "utf8", (err) => {
+        if (err)
+            console.log(err);
+    });
+};
+exports.storeValidCurrencies = storeValidCurrencies;
 const shouldPerformAnalysis = (currency, timeframe) => {
     switch (timeframe) {
         case types_1.Timeframe.EveryFifteenMinute:

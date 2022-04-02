@@ -1,1059 +1,1031 @@
 [
   {
-    "name": "1INCH-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "1INCH",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "1INCH-PERP"
   },
   {
-    "name": "AAVE-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "AAVE",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "AAVE-PERP"
   },
   {
-    "name": "ADA-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "ADA",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "ADA-PERP"
   },
   {
-    "name": "AGLD-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "AGLD",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "AGLD-PERP"
   },
   {
-    "name": "ALCX-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "ALCX",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "ALCX-PERP"
   },
   {
-    "name": "ALGO-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "ALGO",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "ALGO-PERP"
   },
   {
-    "name": "ALICE-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "ALICE",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "ALICE-PERP"
   },
   {
-    "name": "ALPHA-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "ALPHA",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "ALPHA-PERP"
   },
   {
-    "name": "ALT-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "ALT",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "ALT-PERP"
   },
   {
-    "name": "ANC-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "ANC",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "ANC-PERP"
   },
   {
-    "name": "APE-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "APE",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "APE-PERP"
   },
   {
-    "name": "AR-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "AR",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "AR-PERP"
   },
   {
-    "name": "ATLAS-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "ATLAS",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "ATLAS-PERP"
   },
   {
-    "name": "ATOM-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "ATOM",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "ATOM-PERP"
   },
   {
-    "name": "AUDIO-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "AUDIO",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "AUDIO-PERP"
   },
   {
-    "name": "AVAX-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "AVAX",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "AVAX-PERP"
   },
   {
-    "name": "AXS-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "AXS",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "AXS-PERP"
   },
   {
-    "name": "BADGER-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "BADGER",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "BADGER-PERP"
   },
   {
-    "name": "BAL-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "BAL",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "BAL-PERP"
   },
   {
-    "name": "BAND-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "BAND",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "BAND-PERP"
   },
   {
-    "name": "BAT-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "BAT",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "BAT-PERP"
   },
   {
-    "name": "BCH-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "BCH",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "BCH-PERP"
   },
   {
-    "name": "BNB-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "BNB",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "BNB-PERP"
   },
   {
-    "name": "BOBA-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "BOBA",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "BOBA-PERP"
   },
   {
-    "name": "BRZ/USD",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "BSV",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "BSV-PERP"
   },
   {
-    "name": "BSV-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "BTC",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "BTC-PERP"
   },
   {
-    "name": "BTC-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "C98",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "C98-PERP"
   },
   {
-    "name": "C98-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "CAKE",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "CAKE-PERP"
   },
   {
-    "name": "CAKE-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "CELO",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "CELO-PERP"
   },
   {
-    "name": "CELO-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "CHR",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "CHR-PERP"
   },
   {
-    "name": "CHR-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "CHZ",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "CHZ-PERP"
   },
   {
-    "name": "CHZ-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "CLV",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "CLV-PERP"
   },
   {
-    "name": "CLV-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "COMP",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "COMP-PERP"
   },
   {
-    "name": "COMP-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "CREAM",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "CREAM-PERP"
   },
   {
-    "name": "CREAM-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "CRO",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "CRO-PERP"
   },
   {
-    "name": "CRO-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "CRV",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "CRV-PERP"
   },
   {
-    "name": "CRV-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "CTX",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "CTX/USD"
   },
   {
-    "name": "CVC-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "CVC",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "CVC-PERP"
   },
   {
-    "name": "CVX-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "CVX",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "CVX-PERP"
   },
   {
-    "name": "DASH-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "DASH",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "DASH-PERP"
   },
   {
-    "name": "DEFI-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "DEFI",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "DEFI-PERP"
   },
   {
-    "name": "DENT-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "DENT",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "DENT-PERP"
   },
   {
-    "name": "DODO-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "DODO",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "DODO-PERP"
   },
   {
-    "name": "DOGE-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "DOGE",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "DOGE-PERP"
   },
   {
-    "name": "DOT-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "DOT",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "DOT-PERP"
   },
   {
-    "name": "DYDX-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "DYDX",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "DYDX-PERP"
   },
   {
-    "name": "EGLD-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "EGLD",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "EGLD-PERP"
   },
   {
-    "name": "ENJ-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "ENJ",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "ENJ-PERP"
   },
   {
-    "name": "ENS-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "ENS",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "ENS-PERP"
   },
   {
-    "name": "EOS-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "EOS",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "EOS-PERP"
   },
   {
-    "name": "ETC-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "ETC",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "ETC-PERP"
   },
   {
-    "name": "ETH-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "ETH",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "ETH-PERP"
   },
   {
-    "name": "EUR/USD",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "EXCH",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "EXCH-PERP"
   },
   {
-    "name": "EURT/USD",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "FIDA",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "FIDA-PERP"
   },
   {
-    "name": "EXCH-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "FIL",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "FIL-PERP"
   },
   {
-    "name": "FIDA-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "FLOW",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "FLOW-PERP"
   },
   {
-    "name": "FIL-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "FTM",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "FTM-PERP"
   },
   {
-    "name": "FLOW-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "FTT",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "FTT-PERP"
   },
   {
-    "name": "FTM-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "FXS",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "FXS-PERP"
   },
   {
-    "name": "FTT-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "GALA",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "GALA-PERP"
   },
   {
-    "name": "GALA-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "GENE",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "GENE/USD"
   },
   {
-    "name": "GENE/USD",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "GMT",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "GMT-PERP"
   },
   {
-    "name": "GMT-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "GRT",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "GRT-PERP"
   },
   {
-    "name": "GRT-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "HBAR",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "HBAR-PERP"
   },
   {
-    "name": "HBAR-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "HNT",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "HNT-PERP"
   },
   {
-    "name": "HNT-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "HOT",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "HOT-PERP"
   },
   {
-    "name": "HOT-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "HT",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "HT-PERP"
   },
   {
-    "name": "HT-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "HUM",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "HUM-PERP"
   },
   {
-    "name": "HUM-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "ICP",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "ICP-PERP"
   },
   {
-    "name": "ICP-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "ICX",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "ICX-PERP"
   },
   {
-    "name": "ICX-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "IMX",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "IMX-PERP"
   },
   {
-    "name": "IMX-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "IOST",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "IOST-PERP"
   },
   {
-    "name": "IOST-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "IOTA",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "IOTA-PERP"
   },
   {
-    "name": "IOTA-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "JASMY",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "JASMY-PERP"
   },
   {
-    "name": "JASMY-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "KAVA",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "KAVA-PERP"
   },
   {
-    "name": "KAVA-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "KNC",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "KNC-PERP"
   },
   {
-    "name": "KNC-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "KSHIB",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "KSHIB-PERP"
   },
   {
-    "name": "KSHIB-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "KSM",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "KSM-PERP"
   },
   {
-    "name": "KSOS-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "KSOS",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "KSOS-PERP"
   },
   {
-    "name": "LINA-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "LINA",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "LINA-PERP"
   },
   {
-    "name": "LINK-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "LINK",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "LINK-PERP"
   },
   {
-    "name": "LOOKS-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "LOOKS",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "LOOKS-PERP"
   },
   {
-    "name": "LRC-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "LRC",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "LRC-PERP"
   },
   {
-    "name": "LTC-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "LTC",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "LTC-PERP"
   },
   {
-    "name": "LUNA-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "LUNA",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "LUNA-PERP"
   },
   {
-    "name": "MANA-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "MANA",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "MANA-PERP"
   },
   {
-    "name": "MAPS-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "MAPS",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "MAPS-PERP"
   },
   {
-    "name": "MATIC-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "MATIC",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "MATIC-PERP"
   },
   {
-    "name": "MINA-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "MINA",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "MINA-PERP"
   },
   {
-    "name": "MKR-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "MKR",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "MKR-PERP"
   },
   {
-    "name": "MTL-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "MTL",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "MTL-PERP"
   },
   {
-    "name": "MVDA10-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "MVDA10",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "MVDA10-PERP"
   },
   {
-    "name": "MVDA25-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "MVDA25",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "MVDA25-PERP"
   },
   {
-    "name": "NEAR-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "NEAR",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "NEAR-PERP"
   },
   {
-    "name": "NEO-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "NEO",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "NEO-PERP"
   },
   {
-    "name": "OMG-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "OMG",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "OMG-PERP"
   },
   {
-    "name": "ONE-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "ONE",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "ONE-PERP"
   },
   {
-    "name": "ONT-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "ONT",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "ONT-PERP"
   },
   {
-    "name": "PAXG-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "PEOPLE",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "PEOPLE-PERP"
   },
   {
-    "name": "PEOPLE-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "PERP",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "PERP-PERP"
   },
   {
-    "name": "PERP-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "PUNDIX",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "PUNDIX-PERP"
   },
   {
-    "name": "PUNDIX-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "QTUM",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "QTUM-PERP"
   },
   {
-    "name": "QTUM-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "RAY",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "RAY-PERP"
   },
   {
-    "name": "RAY-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "REEF",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "REEF-PERP"
   },
   {
-    "name": "REEF-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "REN",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "REN-PERP"
   },
   {
-    "name": "REN-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "RNDR",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "RNDR-PERP"
   },
   {
-    "name": "RNDR-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "ROSE",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "ROSE-PERP"
   },
   {
-    "name": "ROSE-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "RSR",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "RSR-PERP"
   },
   {
-    "name": "RSR-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "RUNE",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "RUNE-PERP"
   },
   {
-    "name": "RUNE-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "SAND",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "SAND-PERP"
   },
   {
-    "name": "SAND-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "SC",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "SC-PERP"
   },
   {
-    "name": "SC-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "SCRT",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "SCRT-PERP"
   },
   {
-    "name": "SCRT-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "SHIB",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "SHIB-PERP"
   },
   {
-    "name": "SHIB-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "SHIT",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "SHIT-PERP"
   },
   {
-    "name": "SHIT-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "SKL",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "SKL-PERP"
   },
   {
-    "name": "SKL-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "SLP",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "SLP-PERP"
   },
   {
-    "name": "SLP-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "SNX",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "SNX-PERP"
   },
   {
-    "name": "SNX-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "SOL",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "SOL-PERP"
   },
   {
-    "name": "SOL-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "SPELL",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "SPELL-PERP"
   },
   {
-    "name": "SPELL-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "SRM",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "SRM-PERP"
   },
   {
-    "name": "SRM-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "STEP",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "STEP-PERP"
   },
   {
-    "name": "STEP-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "STG",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "STG/USD"
   },
   {
-    "name": "STG/USD",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "STMX",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "STMX-PERP"
   },
   {
-    "name": "STMX-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "STORJ",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "STORJ-PERP"
   },
   {
-    "name": "STORJ-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "STX",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "STX-PERP"
   },
   {
-    "name": "STX-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "SUSHI",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "SUSHI-PERP"
   },
   {
-    "name": "SUSHI-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "SXP",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "SXP-PERP"
   },
   {
-    "name": "SXP-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "THETA",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "THETA-PERP"
   },
   {
-    "name": "THETA-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "TLM",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "TLM-PERP"
   },
   {
-    "name": "TLM-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "TOMO",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "TOMO-PERP"
   },
   {
-    "name": "TOMO-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "TONCOIN",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "TONCOIN-PERP"
   },
   {
-    "name": "TONCOIN-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "TRU",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "TRU-PERP"
   },
   {
-    "name": "TRU-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "TRX",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "TRX-PERP"
   },
   {
-    "name": "TRX-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "UNI",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "UNI-PERP"
   },
   {
-    "name": "UNI-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "UST",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "UST/USD"
   },
   {
-    "name": "UST/USD",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "VET",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "VET-PERP"
   },
   {
-    "name": "VET-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "WAVES",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "WAVES-PERP"
   },
   {
-    "name": "WAVES-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "WBTC",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "WBTC/USD"
   },
   {
-    "name": "WBTC/USD",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "XEM",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "XEM-PERP"
   },
   {
-    "name": "XEM-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "XLM",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "XLM-PERP"
   },
   {
-    "name": "XLM-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "XMR",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "XMR-PERP"
   },
   {
-    "name": "XMR-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "XRP",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "XRP-PERP"
   },
   {
-    "name": "XRP-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "XTZ",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "XTZ-PERP"
   },
   {
-    "name": "XTZ-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "YFI",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "YFI-PERP"
   },
   {
-    "name": "YFI-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "ZEC",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "ZEC-PERP"
   },
   {
-    "name": "ZEC-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "ZIL",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "ZIL-PERP"
   },
   {
-    "name": "ZIL-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
-  },
-  {
-    "name": "ZRX-PERP",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
-  },
-  {
-    "name": "BEAR/USD",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
-  },
-  {
-    "name": "BULL/USD",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
-  },
-  {
-    "name": "ETHBULL/USD",
-    "lastTriggered15": "1970-01-01T00:00:00.000Z",
-    "lastTriggered4H": "1970-01-01T00:00:00.000Z",
-    "lastTriggeredH": "1970-01-01T00:00:00.000Z",
-    "marketName": "kake"
+    "name": "ZRX",
+    "lastTriggered15": "2020-01-31T23:00:00.000Z",
+    "lastTriggered4H": "2020-01-31T23:00:00.000Z",
+    "lastTriggeredH": "2020-01-31T23:00:00.000Z",
+    "marketName": "ZRX-PERP"
   }
 ]

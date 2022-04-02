@@ -1,0 +1,590 @@
+[
+  {
+    "name": "1INCH",
+    "marketName": "1INCH-PERP"
+  },
+  {
+    "name": "AAVE",
+    "marketName": "AAVE-PERP"
+  },
+  {
+    "name": "ADA",
+    "marketName": "ADA-PERP"
+  },
+  {
+    "name": "AGLD",
+    "marketName": "AGLD-PERP"
+  },
+  {
+    "name": "ALCX",
+    "marketName": "ALCX-PERP"
+  },
+  {
+    "name": "ALGO",
+    "marketName": "ALGO-PERP"
+  },
+  {
+    "name": "ALICE",
+    "marketName": "ALICE-PERP"
+  },
+  {
+    "name": "ALPHA",
+    "marketName": "ALPHA-PERP"
+  },
+  {
+    "name": "ALT",
+    "marketName": "ALT-PERP"
+  },
+  {
+    "name": "ANC",
+    "marketName": "ANC-PERP"
+  },
+  {
+    "name": "APE",
+    "marketName": "APE-PERP"
+  },
+  {
+    "name": "AR",
+    "marketName": "AR-PERP"
+  },
+  {
+    "name": "ATLAS",
+    "marketName": "ATLAS-PERP"
+  },
+  {
+    "name": "ATOM",
+    "marketName": "ATOM-PERP"
+  },
+  {
+    "name": "AUDIO",
+    "marketName": "AUDIO-PERP"
+  },
+  {
+    "name": "AVAX",
+    "marketName": "AVAX-PERP"
+  },
+  {
+    "name": "AXS",
+    "marketName": "AXS-PERP"
+  },
+  {
+    "name": "BADGER",
+    "marketName": "BADGER-PERP"
+  },
+  {
+    "name": "BAL",
+    "marketName": "BAL-PERP"
+  },
+  {
+    "name": "BAND",
+    "marketName": "BAND-PERP"
+  },
+  {
+    "name": "BAT",
+    "marketName": "BAT-PERP"
+  },
+  {
+    "name": "BCH",
+    "marketName": "BCH-PERP"
+  },
+  {
+    "name": "BNB",
+    "marketName": "BNB-PERP"
+  },
+  {
+    "name": "BOBA",
+    "marketName": "BOBA-PERP"
+  },
+  {
+    "name": "BSV",
+    "marketName": "BSV-PERP"
+  },
+  {
+    "name": "BTC",
+    "marketName": "BTC-PERP"
+  },
+  {
+    "name": "C98",
+    "marketName": "C98-PERP"
+  },
+  {
+    "name": "CAKE",
+    "marketName": "CAKE-PERP"
+  },
+  {
+    "name": "CELO",
+    "marketName": "CELO-PERP"
+  },
+  {
+    "name": "CHR",
+    "marketName": "CHR-PERP"
+  },
+  {
+    "name": "CHZ",
+    "marketName": "CHZ-PERP"
+  },
+  {
+    "name": "CLV",
+    "marketName": "CLV-PERP"
+  },
+  {
+    "name": "COMP",
+    "marketName": "COMP-PERP"
+  },
+  {
+    "name": "CREAM",
+    "marketName": "CREAM-PERP"
+  },
+  {
+    "name": "CRO",
+    "marketName": "CRO-PERP"
+  },
+  {
+    "name": "CRV",
+    "marketName": "CRV-PERP"
+  },
+  {
+    "name": "CTX",
+    "marketName": "CTX/USD"
+  },
+  {
+    "name": "CVC",
+    "marketName": "CVC-PERP"
+  },
+  {
+    "name": "CVX",
+    "marketName": "CVX-PERP"
+  },
+  {
+    "name": "DASH",
+    "marketName": "DASH-PERP"
+  },
+  {
+    "name": "DEFI",
+    "marketName": "DEFI-PERP"
+  },
+  {
+    "name": "DENT",
+    "marketName": "DENT-PERP"
+  },
+  {
+    "name": "DODO",
+    "marketName": "DODO-PERP"
+  },
+  {
+    "name": "DOGE",
+    "marketName": "DOGE-PERP"
+  },
+  {
+    "name": "DOT",
+    "marketName": "DOT-PERP"
+  },
+  {
+    "name": "DYDX",
+    "marketName": "DYDX-PERP"
+  },
+  {
+    "name": "EGLD",
+    "marketName": "EGLD-PERP"
+  },
+  {
+    "name": "ENJ",
+    "marketName": "ENJ-PERP"
+  },
+  {
+    "name": "ENS",
+    "marketName": "ENS-PERP"
+  },
+  {
+    "name": "EOS",
+    "marketName": "EOS-PERP"
+  },
+  {
+    "name": "ETC",
+    "marketName": "ETC-PERP"
+  },
+  {
+    "name": "ETH",
+    "marketName": "ETH-PERP"
+  },
+  {
+    "name": "EXCH",
+    "marketName": "EXCH-PERP"
+  },
+  {
+    "name": "FIDA",
+    "marketName": "FIDA-PERP"
+  },
+  {
+    "name": "FIL",
+    "marketName": "FIL-PERP"
+  },
+  {
+    "name": "FLOW",
+    "marketName": "FLOW-PERP"
+  },
+  {
+    "name": "FTM",
+    "marketName": "FTM-PERP"
+  },
+  {
+    "name": "FTT",
+    "marketName": "FTT-PERP"
+  },
+  {
+    "name": "FXS",
+    "marketName": "FXS-PERP"
+  },
+  {
+    "name": "GALA",
+    "marketName": "GALA-PERP"
+  },
+  {
+    "name": "GENE",
+    "marketName": "GENE/USD"
+  },
+  {
+    "name": "GMT",
+    "marketName": "GMT-PERP"
+  },
+  {
+    "name": "GRT",
+    "marketName": "GRT-PERP"
+  },
+  {
+    "name": "HBAR",
+    "marketName": "HBAR-PERP"
+  },
+  {
+    "name": "HNT",
+    "marketName": "HNT-PERP"
+  },
+  {
+    "name": "HOT",
+    "marketName": "HOT-PERP"
+  },
+  {
+    "name": "HT",
+    "marketName": "HT-PERP"
+  },
+  {
+    "name": "HUM",
+    "marketName": "HUM-PERP"
+  },
+  {
+    "name": "ICP",
+    "marketName": "ICP-PERP"
+  },
+  {
+    "name": "ICX",
+    "marketName": "ICX-PERP"
+  },
+  {
+    "name": "IMX",
+    "marketName": "IMX-PERP"
+  },
+  {
+    "name": "IOST",
+    "marketName": "IOST-PERP"
+  },
+  {
+    "name": "IOTA",
+    "marketName": "IOTA-PERP"
+  },
+  {
+    "name": "JASMY",
+    "marketName": "JASMY-PERP"
+  },
+  {
+    "name": "KAVA",
+    "marketName": "KAVA-PERP"
+  },
+  {
+    "name": "KNC",
+    "marketName": "KNC-PERP"
+  },
+  {
+    "name": "KSHIB",
+    "marketName": "KSHIB-PERP"
+  },
+  {
+    "name": "KSM",
+    "marketName": "KSM-PERP"
+  },
+  {
+    "name": "KSOS",
+    "marketName": "KSOS-PERP"
+  },
+  {
+    "name": "LINA",
+    "marketName": "LINA-PERP"
+  },
+  {
+    "name": "LINK",
+    "marketName": "LINK-PERP"
+  },
+  {
+    "name": "LOOKS",
+    "marketName": "LOOKS-PERP"
+  },
+  {
+    "name": "LRC",
+    "marketName": "LRC-PERP"
+  },
+  {
+    "name": "LTC",
+    "marketName": "LTC-PERP"
+  },
+  {
+    "name": "LUNA",
+    "marketName": "LUNA-PERP"
+  },
+  {
+    "name": "MANA",
+    "marketName": "MANA-PERP"
+  },
+  {
+    "name": "MAPS",
+    "marketName": "MAPS-PERP"
+  },
+  {
+    "name": "MATIC",
+    "marketName": "MATIC-PERP"
+  },
+  {
+    "name": "MINA",
+    "marketName": "MINA-PERP"
+  },
+  {
+    "name": "MKR",
+    "marketName": "MKR-PERP"
+  },
+  {
+    "name": "MTL",
+    "marketName": "MTL-PERP"
+  },
+  {
+    "name": "MVDA10",
+    "marketName": "MVDA10-PERP"
+  },
+  {
+    "name": "MVDA25",
+    "marketName": "MVDA25-PERP"
+  },
+  {
+    "name": "NEAR",
+    "marketName": "NEAR-PERP"
+  },
+  {
+    "name": "NEO",
+    "marketName": "NEO-PERP"
+  },
+  {
+    "name": "OMG",
+    "marketName": "OMG-PERP"
+  },
+  {
+    "name": "ONE",
+    "marketName": "ONE-PERP"
+  },
+  {
+    "name": "ONT",
+    "marketName": "ONT-PERP"
+  },
+  {
+    "name": "PEOPLE",
+    "marketName": "PEOPLE-PERP"
+  },
+  {
+    "name": "PERP",
+    "marketName": "PERP-PERP"
+  },
+  {
+    "name": "PUNDIX",
+    "marketName": "PUNDIX-PERP"
+  },
+  {
+    "name": "QTUM",
+    "marketName": "QTUM-PERP"
+  },
+  {
+    "name": "RAY",
+    "marketName": "RAY-PERP"
+  },
+  {
+    "name": "REEF",
+    "marketName": "REEF-PERP"
+  },
+  {
+    "name": "REN",
+    "marketName": "REN-PERP"
+  },
+  {
+    "name": "RNDR",
+    "marketName": "RNDR-PERP"
+  },
+  {
+    "name": "ROSE",
+    "marketName": "ROSE-PERP"
+  },
+  {
+    "name": "RSR",
+    "marketName": "RSR-PERP"
+  },
+  {
+    "name": "RUNE",
+    "marketName": "RUNE-PERP"
+  },
+  {
+    "name": "SAND",
+    "marketName": "SAND-PERP"
+  },
+  {
+    "name": "SC",
+    "marketName": "SC-PERP"
+  },
+  {
+    "name": "SCRT",
+    "marketName": "SCRT-PERP"
+  },
+  {
+    "name": "SHIB",
+    "marketName": "SHIB-PERP"
+  },
+  {
+    "name": "SHIT",
+    "marketName": "SHIT-PERP"
+  },
+  {
+    "name": "SKL",
+    "marketName": "SKL-PERP"
+  },
+  {
+    "name": "SLP",
+    "marketName": "SLP-PERP"
+  },
+  {
+    "name": "SNX",
+    "marketName": "SNX-PERP"
+  },
+  {
+    "name": "SOL",
+    "marketName": "SOL-PERP"
+  },
+  {
+    "name": "SPELL",
+    "marketName": "SPELL-PERP"
+  },
+  {
+    "name": "SRM",
+    "marketName": "SRM-PERP"
+  },
+  {
+    "name": "STEP",
+    "marketName": "STEP-PERP"
+  },
+  {
+    "name": "STG",
+    "marketName": "STG/USD"
+  },
+  {
+    "name": "STMX",
+    "marketName": "STMX-PERP"
+  },
+  {
+    "name": "STORJ",
+    "marketName": "STORJ-PERP"
+  },
+  {
+    "name": "STX",
+    "marketName": "STX-PERP"
+  },
+  {
+    "name": "SUSHI",
+    "marketName": "SUSHI-PERP"
+  },
+  {
+    "name": "SXP",
+    "marketName": "SXP-PERP"
+  },
+  {
+    "name": "THETA",
+    "marketName": "THETA-PERP"
+  },
+  {
+    "name": "TLM",
+    "marketName": "TLM-PERP"
+  },
+  {
+    "name": "TOMO",
+    "marketName": "TOMO-PERP"
+  },
+  {
+    "name": "TONCOIN",
+    "marketName": "TONCOIN-PERP"
+  },
+  {
+    "name": "TRU",
+    "marketName": "TRU-PERP"
+  },
+  {
+    "name": "TRX",
+    "marketName": "TRX-PERP"
+  },
+  {
+    "name": "UNI",
+    "marketName": "UNI-PERP"
+  },
+  {
+    "name": "UST",
+    "marketName": "UST/USD"
+  },
+  {
+    "name": "VET",
+    "marketName": "VET-PERP"
+  },
+  {
+    "name": "WAVES",
+    "marketName": "WAVES-PERP"
+  },
+  {
+    "name": "WBTC",
+    "marketName": "WBTC/USD"
+  },
+  {
+    "name": "XEM",
+    "marketName": "XEM-PERP"
+  },
+  {
+    "name": "XLM",
+    "marketName": "XLM-PERP"
+  },
+  {
+    "name": "XMR",
+    "marketName": "XMR-PERP"
+  },
+  {
+    "name": "XRP",
+    "marketName": "XRP-PERP"
+  },
+  {
+    "name": "XTZ",
+    "marketName": "XTZ-PERP"
+  },
+  {
+    "name": "YFI",
+    "marketName": "YFI-PERP"
+  },
+  {
+    "name": "ZEC",
+    "marketName": "ZEC-PERP"
+  },
+  {
+    "name": "ZIL",
+    "marketName": "ZIL-PERP"
+  },
+  {
+    "name": "ZRX",
+    "marketName": "ZRX-PERP"
+  }
+]

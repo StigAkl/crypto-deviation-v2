@@ -1,4 +1,6 @@
+import { GetMarkets } from "../database/currency_database";
 import { Currency, Timeframe } from "../types";
+const fs = require("fs"); 
 
 const suppressionTime = process.env.SUPPRESSION_TIME;
 
@@ -68,6 +70,21 @@ export const SendAlert = (currency: Currency, channel: any, long: boolean, price
             }]
       }
     ]
+  });
+}
+
+export const storeValidCurrencies = ()=> {
+  const markets = GetMarkets(); 
+
+  const marketNames = markets.map(market => {
+    return {
+      "name": market.name,
+      "marketName": market.marketName
+    }
+  }); 
+
+  fs.writeFile("currencies.json", JSON.stringify(marketNames, undefined, 2), "utf8", (err) => {
+    if(err) console.log(err);
   });
 }
 
