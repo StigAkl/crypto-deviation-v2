@@ -47,7 +47,6 @@ export const SendAlert = (currency: Currency, channel: any, long: boolean, price
   const color = long ? 3066993 : 10038562
   
   channel.send({
-    content: tradingView,
     embeds: [
       {
         title,
