@@ -18,7 +18,7 @@ const performAnalysis = async (timeFrame: Timeframe, stdDev: number = 3) => {
     const currency = markets[i];
 
     if (!shouldPerformAnalysis(currency, timeFrame)) {
-      continue;
+      //continue;
     }
 
     const {
