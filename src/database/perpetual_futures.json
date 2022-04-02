@@ -1027,26 +1027,5 @@
     "lastTriggered4H": "2000-01-31T23:00:00.000Z",
     "lastTriggeredH": "2000-01-31T23:00:00.000Z",
     "marketName": "ZRX-PERP"
-  },
-  {
-    "name": "BEAR",
-    "lastTriggered15": "2022-04-02T13:13:53.669Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "marketName": "BEAR/USD"
-  },
-  {
-    "name": "BULL",
-    "lastTriggered15": "2022-04-02T13:13:54.521Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "marketName": "BULL/USD"
-  },
-  {
-    "name": "ETHBULL",
-    "lastTriggered15": "2022-04-02T13:13:55.359Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "marketName": "ETHBULL/USD"
   }
 ]
