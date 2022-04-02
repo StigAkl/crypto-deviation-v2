@@ -23,17 +23,32 @@ const GetMarkets = () => __awaiter(void 0, void 0, void 0, function* () {
         if (element.name.includes("/") &&
             (element.name.includes("USD") || element.name.includes("USDT"))) {
             const split = element.name.split("/");
+            if (split[0].includes("EUR") || split[0].includes("USD")) {
+                continue;
+            }
             if (!addedCurrencies.includes(split[0])) {
-                markets.push(element.name);
+                markets.push({
+                    name: split[0],
+                    lastTriggered15: defaultDate,
+                    lastTriggered4H: defaultDate,
+                    lastTriggeredH: defaultDate,
+                    marketName: element.name
+                });
                 addedCurrencies.push(split[0]);
             }
         }
         if (element.name.includes("-") && element.name.includes("PERP")) {
             const split = element.name.split("-");
+            if (split[0].includes("EUR") || split[0].includes("USD")) {
+                continue;
+            }
             if (!addedCurrencies.includes(split[0])) {
                 markets.push({
-                    name: element.name,
-                    lastTriggered: defaultDate,
+                    name: split[0],
+                    lastTriggered15: defaultDate,
+                    lastTriggered4H: defaultDate,
+                    lastTriggeredH: defaultDate,
+                    marketName: element.name
                 });
                 addedCurrencies.push(split[0]);
             }
@@ -42,8 +57,9 @@ const GetMarkets = () => __awaiter(void 0, void 0, void 0, function* () {
     return markets;
 });
 exports.GetMarkets = GetMarkets;
-const GetCandles = (market, resolution = 900, num_candles = 20) => __awaiter(void 0, void 0, void 0, function* () {
-    const candles = yield axios.get(endpoints.GET_CANDLES(market, resolution));
+const GetCandles = (market, timeframe = 900, num_candles = 20) => __awaiter(void 0, void 0, void 0, function* () {
+    console.log(endpoints.GET_CANDLES(market, timeframe));
+    const candles = yield axios.get(endpoints.GET_CANDLES(market, timeframe));
     const last_x_candles = candles.data.result
         .slice(candles.data.result.length - num_candles)
         .map((candle) => {

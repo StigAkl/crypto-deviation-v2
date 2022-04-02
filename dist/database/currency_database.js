@@ -9,19 +9,23 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.SetSuppression = exports.GetMarkets = exports.LoadCurrenciesToJson = void 0;
+const types_1 = require("../types");
 const fs = require("fs");
 const database = "./src/database/perpetual_futures.json";
-const defaultDate = new Date(2000, 1, 1);
 const LoadCurrenciesToJson = (markets, override = false) => __awaiter(void 0, void 0, void 0, function* () {
     if (!fs.existsSync(database) || override) {
         const mappedMarkets = markets.map((m) => {
             const currency = {
                 name: m.name,
-                lastTriggered: defaultDate,
+                lastTriggered15: m.lastTriggered15,
+                lastTriggered4H: m.lastTriggered4H,
+                lastTriggeredH: m.lastTriggeredH,
+                marketName: m.marketName,
             };
             return currency;
         });
-        fs.writeFile(database, JSON.stringify(mappedMarkets), "utf8", (err) => {
+        fs.writeFile(database, JSON.stringify(mappedMarkets, undefined, 2), "utf8", (err) => {
             if (err) {
                 console.log(err);
             }
@@ -31,28 +35,46 @@ const LoadCurrenciesToJson = (markets, override = false) => __awaiter(void 0, vo
         });
     }
 });
+exports.LoadCurrenciesToJson = LoadCurrenciesToJson;
 const GetMarkets = () => {
     if (fs.existsSync(database)) {
         const markets = JSON.parse(fs.readFileSync(database));
-        return markets;
+        const mappedMarkets = markets.map((c) => {
+            const currency = {
+                name: c.name,
+                lastTriggeredH: new Date(c.lastTriggeredH),
+                lastTriggered15: new Date(c.lastTriggered15),
+                lastTriggered4H: new Date(c.lastTriggered4H),
+                marketName: c.marketName
+            };
+            return currency;
+        });
+        return mappedMarkets;
     }
     else {
         console.error("Database file not found");
         throw Error;
     }
 };
-const SetSuppression = (currency) => __awaiter(void 0, void 0, void 0, function* () {
-    const markets = GetMarkets();
+exports.GetMarkets = GetMarkets;
+const SetSuppression = (currency, timeframe) => __awaiter(void 0, void 0, void 0, function* () {
+    const markets = (0, exports.GetMarkets)();
     markets.forEach((item) => {
         if (item.name === currency.name) {
-            item.lastTriggered = new Date();
+            switch (timeframe) {
+                case types_1.Timeframe.EveryFifteenMinute:
+                    item.lastTriggered15 = new Date();
+                    break;
+                case types_1.Timeframe.Hourly:
+                    item.lastTriggeredH = new Date();
+                    break;
+                case types_1.Timeframe.EveryFourthHour:
+                    item.lastTriggered4H = new Date();
+                    break;
+            }
         }
     });
-    yield LoadCurrenciesToJson(markets, true);
+    yield (0, exports.LoadCurrenciesToJson)(markets, true);
 });
-module.exports = {
-    LoadCurrenciesToJson,
-    GetMarkets,
-    SetSuppression,
-};
+exports.SetSuppression = SetSuppression;
 //# sourceMappingURL=currency_database.js.map

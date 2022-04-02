@@ -10,20 +10,19 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 require("dotenv").config();
-const Utils = require("./Utils/utilities");
-const Database = require("./database/currency_database");
-const BolingerBands = require("./Utils/bolingerbands");
-const TimeFrames = require("./constants/timeframes");
-const performAnalysis = (markets, timeFrame, stdDev = 3) => __awaiter(void 0, void 0, void 0, function* () {
+const utilities_1 = require("./Utils/utilities");
+const currency_database_1 = require("./database/currency_database");
+const types_1 = require("./types");
+const bolingerbands_1 = require("./Utils/bolingerbands");
+const performAnalysis = (timeFrame, stdDev = 3) => __awaiter(void 0, void 0, void 0, function* () {
+    const markets = (0, currency_database_1.GetMarkets)();
+    console.log(`Performing analysis with std dev ${stdDev} and timeframe ${timeFrame}`);
     for (let i = 0; i < markets.length; i++) {
         const currency = markets[i];
-        const { upperBollingerBand, lowerBollingerBand, currentPrice, currentCrossingBollingerLevel, } = yield BolingerBands.CalculateBolingerBands(currency, timeFrame, stdDev);
-        console.log("\n\n-----------------");
-        console.log("Valuta: ", currency.name);
-        console.log("Lower bolinger band:", upperBollingerBand);
-        console.log("Upper bolinger band:", lowerBollingerBand);
-        console.log("Price:", currentPrice);
-        console.log("-----------------\n\n");
+        if (!(0, utilities_1.shouldPerformAnalysis)(currency, timeFrame)) {
+            continue;
+        }
+        const { upperBollingerBand, lowerBollingerBand, currentPrice, currentCrossingBollingerLevel, } = yield (0, bolingerbands_1.CalculateBolingerBands)(currency, timeFrame, stdDev);
         let alertTriggered = false;
         if (currentPrice >= upperBollingerBand) {
             alertTriggered = true;
@@ -34,18 +33,15 @@ const performAnalysis = (markets, timeFrame, stdDev = 3) => __awaiter(void 0, vo
             console.log(`Lower bollinger band hit for ${currency.name}. Price: ${currentPrice}, BB: ${Math.abs(currentCrossingBollingerLevel)}`);
         }
         if (alertTriggered) {
-            //Todo: Suppression
+            (0, currency_database_1.SetSuppression)(currency, timeFrame);
         }
-        yield Utils.delay(300);
+        yield (0, utilities_1.delay)(300);
     }
 });
 const app = () => __awaiter(void 0, void 0, void 0, function* () {
-    //TODO: Nightly / daily dump of crypto quote volume data from markets service to local database
-    //const markets = await marketsService.GetMarkets();
-    //await Database.LoadCurrenciesToJson(markets, true);
-    //const candles = await marketsService.GetCandles("btc/usdt", 900);
-    const markets = Database.GetMarkets();
-    yield performAnalysis(markets, TimeFrames.fifteen);
+    yield performAnalysis(types_1.Timeframe.Hourly, 1);
+    //const markets = await GetMarketsService(); 
+    //LoadCurrenciesToJson(markets, true);
 });
 app();
 //# sourceMappingURL=app.js.map
