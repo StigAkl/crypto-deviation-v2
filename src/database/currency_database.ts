@@ -72,4 +72,16 @@ export const SetSuppression = async (currency: Currency, timeframe: Timeframe) =
   });
 
   await LoadCurrenciesToJson(markets, true);
+}
+
+export const ResetSuppression = () => {
+  const markets = GetMarkets(); 
+  const defaultDate = new Date(2020, 1, 1);
+  markets.forEach((item) => {
+    item.lastTriggered15 = defaultDate; 
+    item.lastTriggeredH = defaultDate; 
+    item.lastTriggered4H = defaultDate;
+  })
+
+  LoadCurrenciesToJson(markets, true); 
 };

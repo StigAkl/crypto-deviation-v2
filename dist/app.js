@@ -23,7 +23,7 @@ const performAnalysis = (timeFrame, stdDev = 3) => __awaiter(void 0, void 0, voi
     for (let i = 0; i < markets.length; i++) {
         const currency = markets[i];
         if (!(0, utilities_1.shouldPerformAnalysis)(currency, timeFrame)) {
-            continue;
+            //continue;
         }
         const { upperBollingerBand, lowerBollingerBand, currentPrice, currentCrossingBollingerLevel, } = yield (0, bolingerbands_1.CalculateBolingerBands)(currency, timeFrame, stdDev);
         let alertTriggered = false;

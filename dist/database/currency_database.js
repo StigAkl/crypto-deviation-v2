@@ -9,7 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.SetSuppression = exports.GetMarkets = exports.LoadCurrenciesToJson = void 0;
+exports.ResetSuppression = exports.SetSuppression = exports.GetMarkets = exports.LoadCurrenciesToJson = void 0;
 const types_1 = require("../types");
 const fs = require("fs");
 const database = "./src/database/perpetual_futures.json";
@@ -77,4 +77,15 @@ const SetSuppression = (currency, timeframe) => __awaiter(void 0, void 0, void 0
     yield (0, exports.LoadCurrenciesToJson)(markets, true);
 });
 exports.SetSuppression = SetSuppression;
+const ResetSuppression = () => {
+    const markets = (0, exports.GetMarkets)();
+    const defaultDate = new Date(2020, 1, 1);
+    markets.forEach((item) => {
+        item.lastTriggered15 = defaultDate;
+        item.lastTriggeredH = defaultDate;
+        item.lastTriggered4H = defaultDate;
+    });
+    (0, exports.LoadCurrenciesToJson)(markets, true);
+};
+exports.ResetSuppression = ResetSuppression;
 //# sourceMappingURL=currency_database.js.map
