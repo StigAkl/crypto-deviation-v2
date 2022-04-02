@@ -51,7 +51,7 @@ client.on('ready', async () => {
   console.log(`Logged in as ${client.user.tag}!`);
 
   try {
-    await performAnalysis(Timeframe.EveryFifteenMinute, 3);
+    await performAnalysis(Timeframe.EveryFifteenMinute, 0.5);
     await performAnalysis(Timeframe.Hourly, 3);
     await performAnalysis(Timeframe.EveryFourthHour, 3); 
 
