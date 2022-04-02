@@ -35,11 +35,14 @@ const performAnalysis = (timeFrame, stdDev = 3) => __awaiter(void 0, void 0, voi
         if (alertTriggered) {
             (0, currency_database_1.SetSuppression)(currency, timeFrame);
         }
-        yield (0, utilities_1.delay)(300);
+        yield (0, utilities_1.delay)(40);
     }
 });
 const app = () => __awaiter(void 0, void 0, void 0, function* () {
-    yield performAnalysis(types_1.Timeframe.Hourly, 1);
+    yield performAnalysis(types_1.Timeframe.EveryFifteenMinute, 1);
+    setInterval(() => __awaiter(void 0, void 0, void 0, function* () {
+        yield performAnalysis(types_1.Timeframe.EveryFifteenMinute, 1);
+    }), 1 * 60 * 1000);
     //const markets = await GetMarketsService(); 
     //LoadCurrenciesToJson(markets, true);
 });
