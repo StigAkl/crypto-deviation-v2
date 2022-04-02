@@ -32,7 +32,6 @@ const performAnalysis = (timeFrame, stdDev = 3) => __awaiter(void 0, void 0, voi
             (0, utilities_1.SendAlert)(currency, discordChannel, false, currentPrice, currentCrossingBollingerLevel);
         }
         if (currentPrice <= lowerBollingerBand) {
-            console.log(lowerBollingerBand, currentPrice);
             alertTriggered = true;
             (0, utilities_1.SendAlert)(currency, discordChannel, true, currentPrice, currentCrossingBollingerLevel);
         }

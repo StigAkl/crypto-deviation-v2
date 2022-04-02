@@ -35,7 +35,6 @@ const performAnalysis = async (timeFrame: Timeframe, stdDev: number = 3) => {
     }
 
     if (currentPrice <= lowerBollingerBand) {
-      console.log(lowerBollingerBand, currentPrice);
       alertTriggered = true;
       SendAlert(currency, discordChannel, true, currentPrice, currentCrossingBollingerLevel); 
     }
