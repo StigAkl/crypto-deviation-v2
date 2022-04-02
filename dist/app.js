@@ -23,7 +23,7 @@ const performAnalysis = (timeFrame, stdDev = 3) => __awaiter(void 0, void 0, voi
     for (let i = 0; i < markets.length; i++) {
         const currency = markets[i];
         if (!(0, utilities_1.shouldPerformAnalysis)(currency, timeFrame)) {
-            //continue;
+            continue;
         }
         const { upperBollingerBand, lowerBollingerBand, currentPrice, currentCrossingBollingerLevel, } = yield (0, bolingerbands_1.CalculateBolingerBands)(currency, timeFrame, stdDev);
         let alertTriggered = false;
@@ -37,7 +37,7 @@ const performAnalysis = (timeFrame, stdDev = 3) => __awaiter(void 0, void 0, voi
             (0, utilities_1.SendAlert)(currency, discordChannel, true, currentPrice, currentCrossingBollingerLevel);
         }
         if (alertTriggered) {
-            (0, currency_database_1.SetSuppression)(currency, timeFrame);
+            //SetSuppression(currency, timeFrame);
         }
         yield (0, utilities_1.delay)(100);
     }
