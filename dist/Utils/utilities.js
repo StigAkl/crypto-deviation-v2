@@ -44,7 +44,7 @@ const SendAlert = (currency, channel, long, price, bbScore) => {
     const title = long ?
         `Possible long setting up for ${currency.name}` :
         `Possible short setting up for ${currency.name}`;
-    const tradingView = "https://www.tradingview.com/chart/VRu66swZ/?symbol=:symbol:".replace(":symbol:", currency.name.concat("USDT"));
+    const tradingView = "https://www.tradingview.com/chart/?symbol=:symbol:".replace(":symbol:", currency.name.concat("USDT"));
     const color = long ? 3066993 : 10038562;
     channel.send({
         content: tradingView,
