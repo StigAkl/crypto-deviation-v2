@@ -7,19 +7,9 @@ export const LoadCurrenciesToJson = async (
   override: boolean = false
 ) => {
   if (!fs.existsSync(database) || override) {
-    const mappedMarkets = markets.map((m: Currency) => {
-      const currency: Currency = {
-        name: m.name,
-        lastTriggered15: m.lastTriggered15,
-        lastTriggered4H: m.lastTriggered4H,
-        lastTriggeredH: m.lastTriggeredH,
-        marketName: m.marketName,
-      };
-      return currency;
-    });
     fs.writeFile(
       database,
-      JSON.stringify(mappedMarkets, undefined, 2),
+      JSON.stringify(markets, undefined, 2),
       "utf8",
       (err) => {
         if (err) {

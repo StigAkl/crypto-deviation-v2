@@ -1,65 +1,18 @@
 import { Candle, Currency, Timeframe } from "../types";
-const defaultDate = new Date(2000, 1, 1);
+import { currencyFilter, currencyMapper, removeDuplicates } from "../Utils/filters";
 const endpoints = require("../constants/endpoints");
 const axios = require("axios");
 
 export const GetMarkets = async (): Promise<Currency[]> => {
-  const result = await axios.get(endpoints.GET_MARKETS());
-  
-  const addedCurrencies: string[] = [];
-
-  const filteredResults = result.data.result.filter(
-    (market) => market.quoteVolume24h > 1800000
-  );
-
-  const markets: Currency[] = [];
-
-  for (let i = 0; i < filteredResults.length; i++) {
-    const element = filteredResults[i];
-    if (
-      element.name.includes("/") &&
-      (element.name.includes("USD") || element.name.includes("USDT"))
-    ) {
-      const split = element.name.split("/");
-
-      if(split[0].includes("EUR") || split[0].includes("USD")) {
-        continue; 
-      }
-
-      if (!addedCurrencies.includes(split[0])) {
-        markets.push({
-          name: split[0],
-          lastTriggered15: defaultDate,
-          lastTriggered4H: defaultDate,
-          lastTriggeredH: defaultDate,
-          marketName: element.name
-        });
-        addedCurrencies.push(split[0]);
-      }
-    }
-
-    if (element.name.includes("-") && element.name.includes("PERP")) {
-      const split = element.name.split("-");
-
-      if(split[0].includes("EUR") || split[0].includes("USD")) {
-        continue; 
-      }
-      
-      if (!addedCurrencies.includes(split[0])) {
-        markets.push({
-          name: split[0],
-          lastTriggered15: defaultDate,
-          lastTriggered4H: defaultDate,
-          lastTriggeredH: defaultDate,
-          marketName: element.name
-        });
-        addedCurrencies.push(split[0]);
-      }
-    }
-  }
-
-  return markets;
+  const response = await ListAllMarkets();
+  const filteredMarkets = removeDuplicates(response.filter(currencyFilter).map(currencyMapper));
+  return filteredMarkets;
 };
+
+export const ListAllMarkets = async () => {
+  const result = await axios.get(endpoints.GET_MARKETS());
+  return result.data.result;
+}
 
 export const GetCandles = async (
   market: string,

@@ -83,7 +83,12 @@ export const storeValidCurrencies = ()=> {
     }
   }); 
 
-  fs.writeFile("currencies.json", JSON.stringify(marketNames, undefined, 2), "utf8", (err) => {
+  const currencyObject = {
+    "items": marketNames.length,
+    "markets": marketNames
+  }; 
+
+  fs.writeFile("src/database/currencies.json", JSON.stringify(currencyObject, undefined, 2), "utf8", (err) => {
     if(err) console.log(err);
   });
 }

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/app.ts",
-    "production": "pm2 start dist/app.js --time",
+    "production": "NODE_ENV=production pm2 start dist/app.js --time",
     "dev": "npx nodemon src/app.ts --ignore ./src/database/perpetual_futures.json ",
     "reset-suppression": "node dist/resetSuppression.js",
     "test": "echo \"Error: no test specified\" && exit 1"
