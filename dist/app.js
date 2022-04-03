@@ -54,7 +54,7 @@ client.on('ready', () => __awaiter(void 0, void 0, void 0, function* () {
         }), 5 * 60 * 1000);
     }
     catch (error) {
-        console.log(error);
+        console.error(error);
     }
 }));
 client.login(process.env.DISCORD_BOT_TOKEN);
