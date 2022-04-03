@@ -60,7 +60,7 @@ client.on('ready', async () => {
       await performAnalysis(Timeframe.EveryFourthHour, 3); 
     }, 5*60*1000);
   } catch(error) {
-    console.log(error); 
+    console.error(error); 
   }
 });
 
