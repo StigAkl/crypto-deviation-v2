@@ -15,17 +15,7 @@ const fs = require("fs");
 const database = "./src/database/perpetual_futures.json";
 const LoadCurrenciesToJson = (markets, override = false) => __awaiter(void 0, void 0, void 0, function* () {
     if (!fs.existsSync(database) || override) {
-        const mappedMarkets = markets.map((m) => {
-            const currency = {
-                name: m.name,
-                lastTriggered15: m.lastTriggered15,
-                lastTriggered4H: m.lastTriggered4H,
-                lastTriggeredH: m.lastTriggeredH,
-                marketName: m.marketName,
-            };
-            return currency;
-        });
-        fs.writeFile(database, JSON.stringify(mappedMarkets, undefined, 2), "utf8", (err) => {
+        fs.writeFile(database, JSON.stringify(markets, undefined, 2), "utf8", (err) => {
             if (err) {
                 console.log(err);
             }

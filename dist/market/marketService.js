@@ -9,54 +9,21 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.GetCandles = exports.GetMarkets = void 0;
-const defaultDate = new Date(2000, 1, 1);
+exports.GetCandles = exports.ListAllMarkets = exports.GetMarkets = void 0;
+const filters_1 = require("../Utils/filters");
 const endpoints = require("../constants/endpoints");
 const axios = require("axios");
 const GetMarkets = () => __awaiter(void 0, void 0, void 0, function* () {
-    const result = yield axios.get(endpoints.GET_MARKETS());
-    const addedCurrencies = [];
-    const filteredResults = result.data.result.filter((market) => market.quoteVolume24h > 1800000);
-    const markets = [];
-    for (let i = 0; i < filteredResults.length; i++) {
-        const element = filteredResults[i];
-        if (element.name.includes("/") &&
-            (element.name.includes("USD") || element.name.includes("USDT"))) {
-            const split = element.name.split("/");
-            if (split[0].includes("EUR") || split[0].includes("USD")) {
-                continue;
-            }
-            if (!addedCurrencies.includes(split[0])) {
-                markets.push({
-                    name: split[0],
-                    lastTriggered15: defaultDate,
-                    lastTriggered4H: defaultDate,
-                    lastTriggeredH: defaultDate,
-                    marketName: element.name
-                });
-                addedCurrencies.push(split[0]);
-            }
-        }
-        if (element.name.includes("-") && element.name.includes("PERP")) {
-            const split = element.name.split("-");
-            if (split[0].includes("EUR") || split[0].includes("USD")) {
-                continue;
-            }
-            if (!addedCurrencies.includes(split[0])) {
-                markets.push({
-                    name: split[0],
-                    lastTriggered15: defaultDate,
-                    lastTriggered4H: defaultDate,
-                    lastTriggeredH: defaultDate,
-                    marketName: element.name
-                });
-                addedCurrencies.push(split[0]);
-            }
-        }
-    }
-    return markets;
+    const response = yield (0, exports.ListAllMarkets)();
+    const filteredMarkets = (0, filters_1.removeDuplicates)(response.filter(filters_1.currencyFilter).map(filters_1.currencyMapper));
+    return filteredMarkets;
 });
 exports.GetMarkets = GetMarkets;
+const ListAllMarkets = () => __awaiter(void 0, void 0, void 0, function* () {
+    const result = yield axios.get(endpoints.GET_MARKETS());
+    return result.data.result;
+});
+exports.ListAllMarkets = ListAllMarkets;
 const GetCandles = (market, timeframe = 900, num_candles = 20) => __awaiter(void 0, void 0, void 0, function* () {
     console.log(endpoints.GET_CANDLES(market, timeframe));
     const candles = yield axios.get(endpoints.GET_CANDLES(market, timeframe));
