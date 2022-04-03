@@ -44,7 +44,7 @@ const performAnalysis = (timeFrame, stdDev = 3) => __awaiter(void 0, void 0, voi
 client.on('ready', () => __awaiter(void 0, void 0, void 0, function* () {
     console.log(`Logged in as ${client.user.tag}!`);
     try {
-        yield performAnalysis(types_1.Timeframe.EveryFifteenMinute, 1);
+        yield performAnalysis(types_1.Timeframe.EveryFifteenMinute, 3);
         yield performAnalysis(types_1.Timeframe.Hourly, 3);
         yield performAnalysis(types_1.Timeframe.EveryFourthHour, 3);
         setInterval(() => __awaiter(void 0, void 0, void 0, function* () {
