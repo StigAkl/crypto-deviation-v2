@@ -48,6 +48,10 @@ const SendAlert = (currency, channel, long, price, bbScore) => {
         `Possible short setting up for ${currency.name}`;
     const tradingView = "https://www.tradingview.com/chart/?symbol=:symbol:".replace(":symbol:", currency.name.concat("USDT"));
     const color = long ? 3066993 : 10038562;
+    if (process.env.NODE_ENV === "development") {
+        console.log(title);
+        return;
+    }
     channel.send({
         embeds: [
             {
@@ -60,7 +64,7 @@ const SendAlert = (currency, channel, long, price, bbScore) => {
                     },
                     {
                         name: "Bolinger band score",
-                        value: bbScore.toString(),
+                        value: bbScore.toFixed(2),
                         inline: true
                     },
                     {
