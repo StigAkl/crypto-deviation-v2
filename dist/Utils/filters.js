@@ -22,11 +22,9 @@ exports.currencyFilter = currencyFilter;
 const currencyMapper = (currency) => {
     const name = currency.name.includes("-") ? currency.name.split("-")[0] : currency.name.split("/")[0];
     const mappedCurrency = {
-        lastTriggered15: defaultDate,
-        lastTriggeredH: defaultDate,
-        lastTriggered4H: defaultDate,
         name,
-        marketName: currency.name
+        marketName: currency.name,
+        lastTriggered: new Map()
     };
     return mappedCurrency;
 };

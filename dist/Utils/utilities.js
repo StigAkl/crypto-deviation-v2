@@ -1,7 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.shouldPerformAnalysis = exports.storeValidCurrencies = exports.SendAlert = exports.getChannel = exports.crossedBollingerBand = exports.LowerbollingerBand = exports.UpperbollingerBand = exports.std = exports.movingAverage = exports.delay = void 0;
-const currency_database_1 = require("../database/currency_database");
+exports.shouldPerformAnalysis = exports.SendAlert = exports.getChannel = exports.crossedBollingerBand = exports.LowerbollingerBand = exports.UpperbollingerBand = exports.std = exports.movingAverage = exports.delay = void 0;
 const types_1 = require("../types");
 const fs = require("fs");
 const suppressionTime = process.env.SUPPRESSION_TIME;
@@ -77,33 +76,10 @@ const SendAlert = (currency, channel, long, price, bbScore) => {
     });
 };
 exports.SendAlert = SendAlert;
-const storeValidCurrencies = () => {
-    const markets = (0, currency_database_1.GetMarkets)();
-    const marketNames = markets.map(market => {
-        return {
-            "name": market.name,
-            "marketName": market.marketName
-        };
-    });
-    const currencyObject = {
-        "items": marketNames.length,
-        "markets": marketNames
-    };
-    fs.writeFile("src/database/currencies.json", JSON.stringify(currencyObject, undefined, 2), "utf8", (err) => {
-        if (err)
-            console.log(err);
-    });
-};
-exports.storeValidCurrencies = storeValidCurrencies;
 const shouldPerformAnalysis = (currency, timeframe) => {
-    switch (timeframe) {
-        case types_1.Timeframe.EveryFifteenMinute:
-            return currency.lastTriggered15.getTime() + parseInt(suppressionTime) < Date.now();
-        case types_1.Timeframe.Hourly:
-            return currency.lastTriggeredH.getTime() + parseInt(suppressionTime) < Date.now();
-        case types_1.Timeframe.EveryFourthHour:
-            return currency.lastTriggered4H.getTime() + parseInt(suppressionTime) < Date.now();
-    }
+    if (!currency.lastTriggered[timeframe])
+        return true;
+    return currency.lastTriggered[timeframe].getTime() + parseInt(suppressionTime) < Date.now();
 };
 exports.shouldPerformAnalysis = shouldPerformAnalysis;
 //# sourceMappingURL=utilities.js.map

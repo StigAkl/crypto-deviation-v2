@@ -76,4 +76,4 @@ const ResetSuppression = () => {
     (0, exports.LoadCurrenciesToJson)(markets, true);
 };
 exports.ResetSuppression = ResetSuppression;
-//# sourceMappingURL=currency_database.js.map
+//# sourceMappingURL=currency_database_deprecated.js.map

@@ -1,14 +1,17 @@
 require("dotenv").config();
 import { shouldPerformAnalysis, delay, getChannel, SendAlert } from './Utils/utilities';
-import { GetMarkets, SetSuppression } from './database/currency_database';
+import { GetCurrencies, SetSuppression } from './database/mongo_db_wrapper';
 import { Timeframe } from './types';
 import { CalculateBolingerBands } from './Utils/bolingerbands';
+
+require("./database/mongoose");
+
 const { Client, Intents } = require('discord.js');
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 
 const performAnalysis = async (timeFrame: Timeframe, stdDev: number = 3) => {
   const discordChannel = getChannel(timeFrame, client);
-  const markets = GetMarkets();
+  const markets = await GetCurrencies();
 
   console.log(
     `Performing analysis with std dev ${stdDev} and timeframe ${timeFrame}`
@@ -40,9 +43,9 @@ const performAnalysis = async (timeFrame: Timeframe, stdDev: number = 3) => {
     }
 
     if (alertTriggered) {
-      SetSuppression(currency, timeFrame);
+      SetSuppression(currency.name, timeFrame);
     }
-    await delay(100);
+    await delay(50);
   }
 };
 
@@ -50,9 +53,9 @@ client.on('ready', async () => {
   console.log(`Logged in as ${client.user.tag}!`);
 
   try {
-    await performAnalysis(Timeframe.EveryFifteenMinute, 3);
-    await performAnalysis(Timeframe.Hourly, 3);
-    await performAnalysis(Timeframe.EveryFourthHour, 3); 
+    await performAnalysis(Timeframe.EveryFifteenMinute, 0.5);
+    await performAnalysis(Timeframe.Hourly, 0.5);
+    await performAnalysis(Timeframe.EveryFourthHour, 0.5); 
 
     setInterval(async ()=> {
       await performAnalysis(Timeframe.EveryFifteenMinute, 3);

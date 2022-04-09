@@ -7,7 +7,7 @@
     "start": "node src/app.ts",
     "production": "NODE_ENV=production pm2 start dist/app.js --time",
     "dev": "npx nodemon src/app.ts --ignore ./src/database/perpetual_futures.json ",
-    "reset-suppression": "node dist/resetSuppression.js",
+    "list": "node dist/scripts/getMarkets.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -20,6 +20,7 @@
     "axios": "^0.26.1",
     "discord.js": "^13.6.0",
     "dotenv": "^16.0.0",
+    "mongoose": "^6.2.10",
     "nodemon": "^2.0.15",
     "ts-node": "^10.7.0"
   }

@@ -1,4 +1,3 @@
-import { GetMarkets } from "../database/currency_database";
 import { Currency, Timeframe } from "../types";
 const fs = require("fs"); 
 
@@ -79,33 +78,13 @@ export const SendAlert = (currency: Currency, channel: any, long: boolean, price
   });
 }
 
-export const storeValidCurrencies = ()=> {
-  const markets = GetMarkets(); 
-
-  const marketNames = markets.map(market => {
-    return {
-      "name": market.name,
-      "marketName": market.marketName
-    }
-  }); 
-
-  const currencyObject = {
-    "items": marketNames.length,
-    "markets": marketNames
-  }; 
-
-  fs.writeFile("src/database/currencies.json", JSON.stringify(currencyObject, undefined, 2), "utf8", (err) => {
-    if(err) console.log(err);
-  });
-}
-
 export const shouldPerformAnalysis = (currency: Currency, timeframe: Timeframe) => {
-  switch(timeframe) {
-    case Timeframe.EveryFifteenMinute:
-      return currency.lastTriggered15.getTime() + parseInt(suppressionTime) < Date.now();
-    case Timeframe.Hourly:
-      return currency.lastTriggeredH.getTime() + parseInt(suppressionTime) < Date.now();
-    case Timeframe.EveryFourthHour:
-      return currency.lastTriggered4H.getTime() + parseInt(suppressionTime) < Date.now();
+
+  const strTimeFrame = timeframe.toString();
+
+  if(!currency.lastTriggered.get(strTimeFrame)) {
+      return true; 
   }
-};
+
+  return currency.lastTriggered.get(strTimeFrame).getTime() + parseInt(suppressionTime) < Date.now();
+}

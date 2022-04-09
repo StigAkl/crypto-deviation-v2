@@ -1,9 +1,8 @@
-export interface Currency {
+
+export type Currency = {
   marketName: string;
   name: string;
-  lastTriggered15: Date;
-  lastTriggeredH: Date;
-  lastTriggered4H: Date;
+  lastTriggered: Map<string, Date>;
 }
 
 export interface Candle {

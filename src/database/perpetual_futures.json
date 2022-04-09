@@ -1,569 +1,407 @@
 [
   {
     "name": "1INCH",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "1INCH-PERP"
   },
   {
     "name": "AAVE",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "AAVE-PERP"
   },
   {
     "name": "ADA",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "ADA-PERP"
   },
   {
     "name": "ALGO",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "ALGO-PERP"
   },
   {
     "name": "ALICE",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "ALICE-PERP"
   },
   {
     "name": "ALPHA",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "ALPHA-PERP"
   },
   {
     "name": "ALT",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "ALT-PERP"
   },
   {
     "name": "APE",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "APE-PERP"
   },
   {
     "name": "AR",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "AR-PERP"
   },
   {
     "name": "ATOM",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "ATOM-PERP"
   },
   {
     "name": "AVAX",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "AVAX-PERP"
   },
   {
     "name": "AXS",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "AXS-PERP"
   },
   {
     "name": "BAT",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "BAT-PERP"
   },
   {
     "name": "BCH",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "BCH-PERP"
   },
   {
     "name": "BNB",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "BNB-PERP"
   },
   {
     "name": "BSV",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "BSV-PERP"
   },
   {
     "name": "BTC",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "BTC-PERP"
   },
   {
     "name": "CHR",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "CHR-PERP"
   },
   {
     "name": "CHZ",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "CHZ-PERP"
   },
   {
     "name": "CLV",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "CLV-PERP"
   },
   {
     "name": "COMP",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "COMP-PERP"
   },
   {
     "name": "CRO",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "CRO-PERP"
   },
   {
     "name": "CRV",
-    "lastTriggeredH": "2022-04-03T04:09:24.102Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "CRV-PERP"
   },
   {
     "name": "DOGE",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "DOGE-PERP"
   },
   {
     "name": "DOT",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "DOT-PERP"
   },
   {
     "name": "DYDX",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "DYDX-PERP"
   },
   {
     "name": "EOS",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "EOS-PERP"
   },
   {
     "name": "ETC",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "ETC-PERP"
   },
   {
     "name": "ETH",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "ETH-PERP"
   },
   {
     "name": "FIL",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "FIL-PERP"
   },
   {
     "name": "FLOW",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "FLOW-PERP"
   },
   {
     "name": "FTM",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "FTM-PERP"
   },
   {
     "name": "FTT",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "FTT-PERP"
   },
   {
     "name": "FXS",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "FXS-PERP"
   },
   {
     "name": "GALA",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "GALA-PERP"
   },
   {
     "name": "GLMR",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "GLMR-PERP"
   },
   {
     "name": "GMT",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "GMT-PERP"
   },
   {
     "name": "GRT",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "GRT-PERP"
   },
   {
     "name": "HNT",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "HNT-PERP"
   },
   {
     "name": "ICP",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "ICP-PERP"
   },
   {
     "name": "ICX",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "ICX-PERP"
   },
   {
     "name": "IMX",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "IMX-PERP"
   },
   {
     "name": "KNC",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "KNC-PERP"
   },
   {
     "name": "KSHIB",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "KSHIB-PERP"
   },
   {
     "name": "LINK",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "LINK-PERP"
   },
   {
     "name": "LOOKS",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "LOOKS-PERP"
   },
   {
     "name": "LRC",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "LRC-PERP"
   },
   {
     "name": "LTC",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "LTC-PERP"
   },
   {
     "name": "LUNA",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "LUNA-PERP"
   },
   {
     "name": "MANA",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "MANA-PERP"
   },
   {
     "name": "MATIC",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "MATIC-PERP"
   },
   {
     "name": "MKR",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "MKR-PERP"
   },
   {
     "name": "NEAR",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "NEAR-PERP"
   },
   {
     "name": "OMG",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "OMG-PERP"
   },
   {
     "name": "ONE",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "ONE-PERP"
   },
   {
     "name": "PEOPLE",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "PEOPLE-PERP"
   },
   {
     "name": "PERP",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "PERP-PERP"
   },
   {
     "name": "QTUM",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "QTUM-PERP"
   },
   {
     "name": "RAY",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "RAY-PERP"
   },
   {
     "name": "REN",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "REN-PERP"
   },
   {
     "name": "RUNE",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "RUNE-PERP"
   },
   {
     "name": "SAND",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "SAND-PERP"
   },
   {
     "name": "SHIB",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "SHIB-PERP"
   },
   {
     "name": "SKL",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "SKL-PERP"
   },
   {
     "name": "SLP",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "SLP-PERP"
   },
   {
     "name": "SNX",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "SNX-PERP"
   },
   {
     "name": "SOL",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "SOL-PERP"
   },
   {
     "name": "SPELL",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "SPELL-PERP"
   },
   {
     "name": "SRM",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "SRM-PERP"
   },
   {
     "name": "STMX",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "STMX-PERP"
   },
   {
     "name": "SUSHI",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "SUSHI-PERP"
   },
   {
     "name": "THETA",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "THETA-PERP"
   },
   {
     "name": "UNI",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "UNI-PERP"
   },
   {
     "name": "VET",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "VET-PERP"
   },
   {
     "name": "WAVES",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "WAVES-PERP"
   },
   {
     "name": "XRP",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "XRP-PERP"
   },
   {
     "name": "XTZ",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "XTZ-PERP"
   },
   {
     "name": "YFI",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "YFI-PERP"
   },
   {
     "name": "ZEC",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "ZEC-PERP"
   },
   {
     "name": "ZIL",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "ZIL-PERP"
   },
   {
     "name": "ZRX",
-    "lastTriggeredH": "2000-01-31T23:00:00.000Z",
-    "lastTriggered15": "2000-01-31T23:00:00.000Z",
-    "lastTriggered4H": "2000-01-31T23:00:00.000Z",
+    "lastTriggered": {},
     "marketName": "ZRX-PERP"
   }
 ]
