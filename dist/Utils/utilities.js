@@ -77,9 +77,11 @@ const SendAlert = (currency, channel, long, price, bbScore) => {
 };
 exports.SendAlert = SendAlert;
 const shouldPerformAnalysis = (currency, timeframe) => {
-    if (!currency.lastTriggered[timeframe])
+    const strTimeFrame = timeframe.toString();
+    if (!currency.lastTriggered.get(strTimeFrame)) {
         return true;
-    return currency.lastTriggered[timeframe].getTime() + parseInt(suppressionTime) < Date.now();
+    }
+    return currency.lastTriggered.get(strTimeFrame).getTime() + parseInt(suppressionTime) < Date.now();
 };
 exports.shouldPerformAnalysis = shouldPerformAnalysis;
 //# sourceMappingURL=utilities.js.map

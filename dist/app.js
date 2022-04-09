@@ -39,7 +39,7 @@ const performAnalysis = (timeFrame, stdDev = 3) => __awaiter(void 0, void 0, voi
         if (alertTriggered) {
             (0, mongo_db_wrapper_1.SetSuppression)(currency.name, timeFrame);
         }
-        yield (0, utilities_1.delay)(30);
+        yield (0, utilities_1.delay)(50);
     }
 });
 client.on('ready', () => __awaiter(void 0, void 0, void 0, function* () {

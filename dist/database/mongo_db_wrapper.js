@@ -14,9 +14,8 @@ const CurrencyEntity = require("./entities/currency");
 const GetCurrencies = () => __awaiter(void 0, void 0, void 0, function* () {
     const currencies = yield CurrencyEntity.find({});
     const mappedCurrencies = currencies.map(c => {
-        const map = c.lastTriggered ? c.lastTriggered : new Map();
         const mappedCurrency = {
-            lastTriggered: map,
+            lastTriggered: c.lastTriggeredBand,
             marketName: c.marketName,
             name: c.name
         };
@@ -31,7 +30,7 @@ const SetSuppression = (name, timeframe) => __awaiter(void 0, void 0, void 0, fu
         "name": name
     }).exec();
     const map = currency.lastTriggeredBand;
-    map.set(timeframe, new Date());
+    map.set(timeframe.toString(), new Date());
     currency.lastTriggeredBand = map;
     yield currency.save();
 });
