@@ -39,15 +39,15 @@ const performAnalysis = (timeFrame, stdDev = 3) => __awaiter(void 0, void 0, voi
         if (alertTriggered) {
             (0, mongo_db_wrapper_1.SetSuppression)(currency.name, timeFrame);
         }
-        yield (0, utilities_1.delay)(50);
+        yield (0, utilities_1.delay)(100);
     }
 });
 client.on('ready', () => __awaiter(void 0, void 0, void 0, function* () {
     console.log(`Logged in as ${client.user.tag}!`);
     try {
-        yield performAnalysis(types_1.Timeframe.EveryFifteenMinute, 0.5);
-        yield performAnalysis(types_1.Timeframe.Hourly, 0.5);
-        yield performAnalysis(types_1.Timeframe.EveryFourthHour, 0.5);
+        yield performAnalysis(types_1.Timeframe.EveryFifteenMinute, 3);
+        yield performAnalysis(types_1.Timeframe.Hourly, 3);
+        yield performAnalysis(types_1.Timeframe.EveryFourthHour, 3);
         setInterval(() => __awaiter(void 0, void 0, void 0, function* () {
             yield performAnalysis(types_1.Timeframe.EveryFifteenMinute, 3);
             yield performAnalysis(types_1.Timeframe.Hourly, 3);

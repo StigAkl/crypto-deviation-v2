@@ -45,7 +45,7 @@ const performAnalysis = async (timeFrame: Timeframe, stdDev: number = 3) => {
     if (alertTriggered) {
       SetSuppression(currency.name, timeFrame);
     }
-    await delay(50);
+    await delay(100);
   }
 };
 
