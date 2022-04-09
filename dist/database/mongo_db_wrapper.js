@@ -9,15 +9,16 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.SetSuppression = exports.GetCurrencies = void 0;
+exports.IsActive = exports.SetSuppression = exports.GetCurrencies = void 0;
+const Params = require("./entities/params");
 const CurrencyEntity = require("./entities/currency");
 const GetCurrencies = () => __awaiter(void 0, void 0, void 0, function* () {
     const currencies = yield CurrencyEntity.find({});
-    const mappedCurrencies = currencies.map(c => {
+    const mappedCurrencies = currencies.map((c) => {
         const mappedCurrency = {
             lastTriggered: c.lastTriggeredBand,
             marketName: c.marketName,
-            name: c.name
+            name: c.name,
         };
         return mappedCurrency;
     });
@@ -27,7 +28,7 @@ exports.GetCurrencies = GetCurrencies;
 const SetSuppression = (name, timeframe) => __awaiter(void 0, void 0, void 0, function* () {
     console.log("Suppressing", name);
     const currency = yield CurrencyEntity.findOne({
-        "name": name
+        name: name,
     }).exec();
     const map = currency.lastTriggeredBand;
     map.set(timeframe.toString(), new Date());
@@ -35,4 +36,11 @@ const SetSuppression = (name, timeframe) => __awaiter(void 0, void 0, void 0, fu
     yield currency.save();
 });
 exports.SetSuppression = SetSuppression;
+const IsActive = () => __awaiter(void 0, void 0, void 0, function* () {
+    const params = (yield Params.find({}))[0];
+    if (!params)
+        return false;
+    return params.isActive;
+});
+exports.IsActive = IsActive;
 //# sourceMappingURL=mongo_db_wrapper.js.map

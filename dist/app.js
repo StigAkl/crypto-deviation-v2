@@ -15,9 +15,15 @@ const mongo_db_wrapper_1 = require("./database/mongo_db_wrapper");
 const types_1 = require("./types");
 const bolingerbands_1 = require("./Utils/bolingerbands");
 require("./database/mongoose");
-const { Client, Intents } = require('discord.js');
+const { Client, Intents } = require("discord.js");
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 const performAnalysis = (timeFrame, stdDev = 3) => __awaiter(void 0, void 0, void 0, function* () {
+    if (!(yield (0, mongo_db_wrapper_1.IsActive)())) {
+        //wait for 2 minutes
+        console.log("Not active..waiting");
+        yield (0, utilities_1.delay)(10 * 1000);
+    }
+    console.log("wait done");
     const discordChannel = (0, utilities_1.getChannel)(timeFrame, client);
     const markets = yield (0, mongo_db_wrapper_1.GetCurrencies)();
     console.log(`Performing analysis with std dev ${stdDev} and timeframe ${timeFrame}`);
@@ -42,7 +48,7 @@ const performAnalysis = (timeFrame, stdDev = 3) => __awaiter(void 0, void 0, voi
         yield (0, utilities_1.delay)(100);
     }
 });
-client.on('ready', () => __awaiter(void 0, void 0, void 0, function* () {
+client.on("ready", () => __awaiter(void 0, void 0, void 0, function* () {
     console.log(`Logged in as ${client.user.tag}!`);
     try {
         yield performAnalysis(types_1.Timeframe.EveryFifteenMinute, 3);

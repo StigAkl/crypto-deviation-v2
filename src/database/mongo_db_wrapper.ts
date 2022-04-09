@@ -1,35 +1,42 @@
 import { Currency } from "../types";
 
-const CurrencyEntity = require("./entities/currency"); 
+const Params = require("./entities/params");
+const CurrencyEntity = require("./entities/currency");
 
 export const GetCurrencies = async () => {
-    const currencies = await CurrencyEntity.find({}); 
+  const currencies = await CurrencyEntity.find({});
 
-    const mappedCurrencies: Currency[] = currencies.map(c => {
+  const mappedCurrencies: Currency[] = currencies.map((c) => {
+    const mappedCurrency: Currency = {
+      lastTriggered: c.lastTriggeredBand,
+      marketName: c.marketName,
+      name: c.name,
+    };
 
-      const mappedCurrency: Currency = {
-        lastTriggered: c.lastTriggeredBand,
-        marketName: c.marketName,
-        name: c.name
-      }
+    return mappedCurrency;
+  });
 
-      return mappedCurrency;
-    }); 
-
-    return mappedCurrencies; 
-}
+  return mappedCurrencies;
+};
 
 export const SetSuppression = async (name: string, timeframe: number) => {
-
-  console.log("Suppressing", name); 
+  console.log("Suppressing", name);
   const currency = await CurrencyEntity.findOne({
-    "name": name
-  }).exec(); 
+    name: name,
+  }).exec();
 
-  const map = currency.lastTriggeredBand; 
-  map.set(timeframe.toString(), new Date()); 
+  const map = currency.lastTriggeredBand;
+  map.set(timeframe.toString(), new Date());
 
-  currency.lastTriggeredBand = map; 
+  currency.lastTriggeredBand = map;
 
-  await currency.save(); 
-}
+  await currency.save();
+};
+
+export const IsActive = async () => {
+  const params = (await Params.find({}))[0];
+
+  if (!params) return false;
+
+  return params.isActive;
+};
