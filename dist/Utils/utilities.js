@@ -33,18 +33,18 @@ exports.crossedBollingerBand = crossedBollingerBand;
 const getChannel = (timeframe, client) => {
     switch (timeframe) {
         case types_1.Timeframe.EveryFifteenMinute:
-            return client.channels.cache.find(channel => channel.name.includes("15m"));
+            return client.channels.cache.find((channel) => channel.name.includes("15m"));
         case types_1.Timeframe.Hourly:
-            return client.channels.cache.find(channel => channel.name.includes("1h"));
+            return client.channels.cache.find((channel) => channel.name.includes("1h"));
         case types_1.Timeframe.EveryFourthHour:
-            return client.channels.cache.find(channel => channel.name.includes("4h"));
+            return client.channels.cache.find((channel) => channel.name.includes("4h"));
     }
 };
 exports.getChannel = getChannel;
 const SendAlert = (currency, channel, long, price, bbScore) => {
-    const title = long ?
-        `Possible long setting up for ${currency.name}` :
-        `Possible short setting up for ${currency.name}`;
+    const title = long
+        ? `${currency.name} crossed lower bolinger band`
+        : `${currency.name} crossed upper bolinger band`;
     const tradingView = "https://www.tradingview.com/chart/?symbol=:symbol:".replace(":symbol:", currency.name.concat("USDT"));
     const color = long ? 3066993 : 10038562;
     if (process.env.NODE_ENV === "development") {
@@ -56,23 +56,25 @@ const SendAlert = (currency, channel, long, price, bbScore) => {
             {
                 title,
                 color,
-                fields: [{
+                fields: [
+                    {
                         name: "Price",
                         value: price.toString(),
-                        inline: true
+                        inline: true,
                     },
                     {
                         name: "Bolinger band score",
                         value: bbScore.toFixed(2),
-                        inline: true
+                        inline: true,
                     },
                     {
                         name: "Trading view",
                         value: tradingView,
-                        inline: false
-                    }]
-            }
-        ]
+                        inline: false,
+                    },
+                ],
+            },
+        ],
     });
 };
 exports.SendAlert = SendAlert;
@@ -81,7 +83,9 @@ const shouldPerformAnalysis = (currency, timeframe) => {
     if (!currency.lastTriggered.get(strTimeFrame)) {
         return true;
     }
-    return currency.lastTriggered.get(strTimeFrame).getTime() + parseInt(suppressionTime) < Date.now();
+    return (currency.lastTriggered.get(strTimeFrame).getTime() +
+        parseInt(suppressionTime) <
+        Date.now());
 };
 exports.shouldPerformAnalysis = shouldPerformAnalysis;
 //# sourceMappingURL=utilities.js.map
