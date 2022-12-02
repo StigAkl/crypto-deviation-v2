@@ -31,11 +31,9 @@ export const currencyMapper = (currency: RawData): Currency => {
     const name = currency.name.includes("-") ? currency.name.split("-")[0] : currency.name.split("/")[0]; 
     
     const mappedCurrency: Currency = {
-        lastTriggered15: defaultDate,
-        lastTriggeredH: defaultDate,
-        lastTriggered4H: defaultDate,
         name,
-        marketName: currency.name
+        marketName: currency.name,
+        lastTriggered: new Map()
     };
 
     return mappedCurrency;

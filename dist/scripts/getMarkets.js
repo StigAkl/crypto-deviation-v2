@@ -9,13 +9,12 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const currency_database_1 = require("../database/currency_database");
-const marketService_1 = require("../market/marketService");
+const mongo_db_wrapper_1 = require("../database/mongo_db_wrapper");
 require("dotenv").config();
-const loadMarketsToJson = () => __awaiter(void 0, void 0, void 0, function* () {
-    console.log("running");
-    const markets = yield (0, marketService_1.GetMarkets)();
-    (0, currency_database_1.LoadCurrenciesToJson)(markets, true);
+require("../database/mongoose");
+const init = () => __awaiter(void 0, void 0, void 0, function* () {
+    const currencies = yield (0, mongo_db_wrapper_1.GetCurrencies)();
 });
-loadMarketsToJson();
-//# sourceMappingURL=storeMarketsInJson.js.map
+console.log("Initialising");
+init();
+//# sourceMappingURL=getMarkets.js.map

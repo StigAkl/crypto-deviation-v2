@@ -1,12 +1,13 @@
-import { GetMarkets } from "../database/currency_database";
 import { Currency, Timeframe } from "../types";
-const fs = require("fs"); 
+const fs = require("fs");
 
 const suppressionTime = process.env.SUPPRESSION_TIME;
 
-export const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+export const delay = (ms: number) =>
+  new Promise((resolve) => setTimeout(resolve, ms));
 
-export const movingAverage = (data: any) => data.reduce((a, b) => a + b, 0) / data.length;
+export const movingAverage = (data: any) =>
+  data.reduce((a, b) => a + b, 0) / data.length;
 
 export const std = (data: any) => {
   const sma = movingAverage(data);
@@ -33,24 +34,39 @@ export const crossedBollingerBand = (currentPrice, std, ma) => {
 export const getChannel = (timeframe: Timeframe, client: any) => {
   switch (timeframe) {
     case Timeframe.EveryFifteenMinute:
-      return client.channels.cache.find(channel=>channel.name.includes("15m")); 
+      return client.channels.cache.find((channel) =>
+        channel.name.includes("15m")
+      );
     case Timeframe.Hourly:
-      return client.channels.cache.find(channel=>channel.name.includes("1h")); 
+      return client.channels.cache.find((channel) =>
+        channel.name.includes("1h")
+      );
     case Timeframe.EveryFourthHour:
-      return client.channels.cache.find(channel=>channel.name.includes("4h"));
+      return client.channels.cache.find((channel) =>
+        channel.name.includes("4h")
+      );
   }
-}
+};
 
-export const SendAlert = (currency: Currency, channel: any, long: boolean, price: number, bbScore: number) => {
+export const SendAlert = (
+  currency: Currency,
+  channel: any,
+  long: boolean,
+  price: number,
+  bbScore: number
+) => {
+  const title = long
+    ? `${currency.name} crossed lower bolinger band`
+    : `${currency.name} crossed upper bolinger band`;
+  const tradingView =
+    "https://www.tradingview.com/chart/?symbol=:symbol:".replace(
+      ":symbol:",
+      currency.name.concat("USDT")
+    );
+  const color = long ? 3066993 : 10038562;
 
-  const title = long ? 
-  `Possible long setting up for ${currency.name}` : 
-  `Possible short setting up for ${currency.name}`;
-  const tradingView = "https://www.tradingview.com/chart/?symbol=:symbol:".replace(":symbol:", currency.name.concat("USDT"));
-  const color = long ? 3066993 : 10038562
-  
-  if(process.env.NODE_ENV === "development") {
-    console.log(title); 
+  if (process.env.NODE_ENV === "development") {
+    console.log(title);
     return;
   }
 
@@ -58,54 +74,42 @@ export const SendAlert = (currency: Currency, channel: any, long: boolean, price
     embeds: [
       {
         title,
-          color,
-          fields: [{
-            name: "Price", 
-            value: price.toString(),
-            inline: true
-          }, 
+        color,
+        fields: [
           {
-          name: "Bolinger band score",
-          value: bbScore.toFixed(2),
-          inline: true
+            name: "Price",
+            value: price.toString(),
+            inline: true,
+          },
+          {
+            name: "Bolinger band score",
+            value: bbScore.toFixed(2),
+            inline: true,
           },
           {
             name: "Trading view",
             value: tradingView,
-            inline: false
-            }]
-      }
-    ]
+            inline: false,
+          },
+        ],
+      },
+    ],
   });
-}
+};
 
-export const storeValidCurrencies = ()=> {
-  const markets = GetMarkets(); 
+export const shouldPerformAnalysis = (
+  currency: Currency,
+  timeframe: Timeframe
+) => {
+  const strTimeFrame = timeframe.toString();
 
-  const marketNames = markets.map(market => {
-    return {
-      "name": market.name,
-      "marketName": market.marketName
-    }
-  }); 
-
-  const currencyObject = {
-    "items": marketNames.length,
-    "markets": marketNames
-  }; 
-
-  fs.writeFile("src/database/currencies.json", JSON.stringify(currencyObject, undefined, 2), "utf8", (err) => {
-    if(err) console.log(err);
-  });
-}
-
-export const shouldPerformAnalysis = (currency: Currency, timeframe: Timeframe) => {
-  switch(timeframe) {
-    case Timeframe.EveryFifteenMinute:
-      return currency.lastTriggered15.getTime() + parseInt(suppressionTime) < Date.now();
-    case Timeframe.Hourly:
-      return currency.lastTriggeredH.getTime() + parseInt(suppressionTime) < Date.now();
-    case Timeframe.EveryFourthHour:
-      return currency.lastTriggered4H.getTime() + parseInt(suppressionTime) < Date.now();
+  if (!currency.lastTriggered.get(strTimeFrame)) {
+    return true;
   }
+
+  return (
+    currency.lastTriggered.get(strTimeFrame).getTime() +
+      parseInt(suppressionTime) <
+    Date.now()
+  );
 };
